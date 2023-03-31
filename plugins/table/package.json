@@ -1,8 +1,12 @@
 {
   "name": "@4399ywkf/plugin-table",
-  "version": "2.10.1",
+  "version": "2.10.2",
   "description": "table plugin",
-  "author": "AoMao <me@aomao.com>",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "author": "4399ywkf",
   "homepage": "https://github.com/big-camel/am-editor/tree/master/plugins/plugin-table#readme",
   "license": "MIT",
   "main": "dist/index.js",
@@ -32,5 +36,6 @@
   },
   "peerDependencies": {
     "@aomao/engine": ">=2.9"
-  }
+  },
+  "gitHead": "0ef4fe2f17af30a02d102efe5e6d240ce2ce7df7"
 }

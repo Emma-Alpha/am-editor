@@ -1,28 +1,33 @@
 {
-  "name": "@4399ywkf/plugin-redo",
-  "version": "2.10.1",
-  "main": "dist/index.js",
-  "module": "dist/index.esm.js",
-  "typings": "dist/index.d.ts",
-  "files": [
-    "dist",
-    "lib",
-    "src"
-  ],
-  "author": "me@aomao.com",
-  "license": "MIT",
-  "homepage": "https://github.com/big-camel/am-editor#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/big-camel/am-editor.git"
-  },
-  "bugs": {
-    "url": "https://github.com/big-camel/am-editor/issues"
-  },
-  "dependencies": {
-    "@babel/runtime": "^7.13.10"
-  },
-  "peerDependencies": {
-    "@aomao/engine": ">=2.9"
-  }
+	"name": "@4399ywkf/plugin-redo",
+	"version": "2.10.2",
+	"main": "dist/index.js",
+	"module": "dist/index.esm.js",
+	"typings": "dist/index.d.ts",
+	"files": [
+		"dist",
+		"lib",
+		"src"
+	],
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/",
+		"access": "public"
+	},
+	"author": "4399ywkf",
+	"license": "MIT",
+	"homepage": "https://github.com/big-camel/am-editor#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/big-camel/am-editor.git"
+	},
+	"bugs": {
+		"url": "https://github.com/big-camel/am-editor/issues"
+	},
+	"dependencies": {
+		"@babel/runtime": "^7.13.10"
+	},
+	"peerDependencies": {
+		"@aomao/engine": ">=2.9"
+	},
+	"gitHead": "0ef4fe2f17af30a02d102efe5e6d240ce2ce7df7"
 }

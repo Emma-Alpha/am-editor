@@ -1,6 +1,6 @@
 {
 	"name": "@4399ywkf/plugin-yjs-protocols",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"main": "./dist/index.js",
 	"sideEffects": false,
 	"type": "module",
@@ -53,7 +53,11 @@
 		"dist",
 		"src"
 	],
-	"author": "me@aomao.com",
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/",
+		"access": "public"
+	},
+	"author": "4399ywkf",
 	"license": "MIT",
 	"homepage": "https://github.com/big-camel/am-editor#readme",
 	"repository": {
@@ -72,5 +76,6 @@
 	},
 	"peerDependencies": {
 		"yjs": ">=13.5"
-	}
+	},
+	"gitHead": "0ef4fe2f17af30a02d102efe5e6d240ce2ce7df7"
 }

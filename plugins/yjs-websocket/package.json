@@ -1,6 +1,6 @@
 {
 	"name": "@4399ywkf/plugin-yjs-websocket",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"main": "./dist/index.js",
 	"exports": {
 		".": {
@@ -36,7 +36,11 @@
 		"lib",
 		"src"
 	],
-	"author": "me@aomao.com",
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/",
+		"access": "public"
+	},
+	"author": "4399ywkf",
 	"license": "MIT",
 	"homepage": "https://github.com/big-camel/am-editor#readme",
 	"repository": {
@@ -65,5 +69,6 @@
 		"mongodb": "5.0.1",
 		"ws": "^6.2.1",
 		"y-leveldb": "^0.1.2"
-	}
+	},
+	"gitHead": "0ef4fe2f17af30a02d102efe5e6d240ce2ce7df7"
 }

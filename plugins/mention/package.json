@@ -1,10 +1,7 @@
 {
     "name": "@4399ywkf/plugin-mention",
-    "version": "2.10.3",
+    "version": "2.10.4",
     "description": "提到 @",
-    "publishConfig": {
-        "access": "public"
-    },
     "main": "dist/index.js",
     "module": "dist/index.esm.js",
     "typings": "dist/index.d.ts",
@@ -13,7 +10,11 @@
         "lib",
         "src"
     ],
-    "author": "me@aomao.com",
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/",
+        "access": "public"
+    },
+    "author": "4399ywkf",
     "license": "MIT",
     "homepage": "https://github.com/big-camel/am-editor#readme",
     "repository": {
@@ -29,5 +30,6 @@
     },
     "peerDependencies": {
         "@aomao/engine": ">=2.9"
-    }
+    },
+    "gitHead": "0ef4fe2f17af30a02d102efe5e6d240ce2ce7df7"
 }
