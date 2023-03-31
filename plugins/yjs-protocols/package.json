@@ -1,6 +1,6 @@
 {
-	"name": "@aomao/plugin-yjs-protocols",
-	"version": "1.0.2",
+	"name": "@4399ywkf/plugin-yjs-protocols",
+	"version": "1.0.3",
 	"main": "./dist/index.js",
 	"sideEffects": false,
 	"type": "module",

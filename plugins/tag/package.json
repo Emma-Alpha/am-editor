@@ -1,6 +1,6 @@
 {
-  "name": "@aomao/plugin-tag",
-  "version": "1.1.1",
+  "name": "@4399ywkf/plugin-tag",
+  "version": "1.1.2",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",

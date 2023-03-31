@@ -1,6 +1,6 @@
 {
-	"name": "@aomao/plugin-yjs-websocket",
-	"version": "1.0.6",
+	"name": "@4399ywkf/plugin-yjs-websocket",
+	"version": "1.0.7",
 	"main": "./dist/index.js",
 	"exports": {
 		".": {
