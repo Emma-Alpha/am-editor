@@ -1,18 +1,18 @@
-# @aomao/plugin-status
+# @4399ywkf/plugin-status
 
 状态插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-status
+$ yarn add @4399ywkf/plugin-status
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Status , { StatusComponent } from '@aomao/plugin-status';
+import Engine, { EngineInterface } from '@4399ywkf/engine';
+import Status , { StatusComponent } from '@4399ywkf/plugin-status';
 
 new Engine(...,{ plugins:[Status] , cards:[StatusComponent]})
 ```

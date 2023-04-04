@@ -1,5 +1,5 @@
-import type { Element, Node } from '@aomao/engine';
-import { CursorAttribute } from '@aomao/engine';
+import type { Element, Node } from '@4399ywkf/engine';
+import { CursorAttribute } from '@4399ywkf/engine';
 import type Y from 'yjs';
 
 export interface CursorData extends Record<string, unknown> {

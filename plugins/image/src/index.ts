@@ -10,7 +10,7 @@ import {
 	Plugin,
 	PluginEntry,
 	READY_CARD_KEY,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import ImageComponent, { ImageValue } from './component';
 import ImageUploader from './uploader';
 import { ImageUploaderOptions } from './uploader';

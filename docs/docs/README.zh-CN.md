@@ -125,7 +125,7 @@ card 节点主要属性
 -   Name 卡片名称与导入的 CodeBlockComponent.cardName 名称一致
 
 ```typescript
-import { CodeBlockComponent } from '@aomao/plugin-codeblock';
+import { CodeBlockComponent } from '@4399ywkf/plugin-codeblock';
 ```
 
 -   Value 卡片的值，用于卡片的渲染，值的类型与结构在定义卡片插件时由卡片插件定义和实现 ui 渲染
@@ -151,9 +151,9 @@ const cardValue = `data:${value}`
 ```typescript
 ...
 // 导入编辑器
-import Engine from '@aomao/engine'
+import Engine from '@4399ywkf/engine'
 // 导入代码块插件
-import CodeBlock, { CodeBlockComponent } from '@aomao/plugin-codeblock'
+import CodeBlock, { CodeBlockComponent } from '@4399ywkf/plugin-codeblock'
 ...
 // 编辑器渲染节点
 const container = useRef<HTMLDivElement | null>(null);
@@ -183,9 +183,9 @@ return <div ref={container}></div>;
 ```typescript
 ...
 // 导入视图渲染器
-import { View } from '@aomao/engine';
+import { View } from '@4399ywkf/engine';
 // 导入代码块插件
-import CodeBlock, { CodeBlockComponent } from '@aomao/plugin-codeblock'
+import CodeBlock, { CodeBlockComponent } from '@4399ywkf/plugin-codeblock'
 ...
 const container = useRef<HTMLDivElement | null>(null);
 useEffect(() => {

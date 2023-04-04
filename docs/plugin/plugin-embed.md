@@ -1,4 +1,4 @@
-# @aomao/plugin-embed
+# @4399ywkf/plugin-embed
 
 Embed URL
 
@@ -7,14 +7,14 @@ By inheriting this plugin, you can embed a specific URL to realize the preview f
 ## Install
 
 ```bash
-$ yarn add @aomao/plugin-embed
+$ yarn add @4399ywkf/plugin-embed
 ```
 
 Add to engine
 
 ```ts
-import Engine, {EngineInterface} from'@aomao/engine';
-import Embed, {EmbedComponent} from'@aomao/plugin-embed';
+import Engine, {EngineInterface} from'@4399ywkf/engine';
+import Embed, {EmbedComponent} from'@4399ywkf/plugin-embed';
 
 new Engine(...,{ plugins:[ Embed], cards:[ EmbedComponent ]})
 ```

@@ -3,7 +3,7 @@ import {
 	EditorInterface,
 	PluginOptions,
 	ToolbarItemOptions,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 
 export interface HrOptions extends PluginOptions {
 	hotkey?: string | Array<string>;

@@ -1,8 +1,8 @@
 import React from 'react';
 import Avatar from 'antd/es/avatar';
 import Space from 'antd/es/space';
-import { CursorData } from '@aomao/plugin-yjs';
-import { isMobile } from '@aomao/engine';
+import { CursorData } from '@4399ywkf/plugin-yjs';
+import { isMobile } from '@4399ywkf/engine';
 import 'antd/es/avatar/style/css';
 import 'antd/es/space/style/css';
 import 'antd/es/badge/style/css';

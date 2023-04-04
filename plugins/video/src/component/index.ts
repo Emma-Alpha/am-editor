@@ -7,7 +7,7 @@ import {
 	CardValue,
 	removeUnit,
 	CardActiveTrigger,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import {
 	$,
 	Card,
@@ -17,7 +17,7 @@ import {
 	isEngine,
 	sanitizeUrl,
 	Resizer,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import './index.css';
 
 export type VideoStatus = 'uploading' | 'transcoding' | 'done' | 'error';

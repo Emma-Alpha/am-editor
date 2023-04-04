@@ -12,7 +12,7 @@
 </template>
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { EngineInterface } from '@aomao/engine';
+import { EngineInterface } from '@4399ywkf/engine';
 import omit from 'lodash/omit';
 import { collapseGroupProps } from '../../types'
 import AmCollapseItem from './item.vue'

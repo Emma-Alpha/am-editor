@@ -31,7 +31,7 @@
 </template>
 <script lang="ts">
 import { defineComponent, onMounted, PropType } from 'vue';
-import { LanguageInterface, isMobile } from '@aomao/engine';
+import { LanguageInterface, isMobile } from '@4399ywkf/engine';
 import ATooltip from 'ant-design-vue/es/tooltip';
 import 'ant-design-vue/es/tooltip/style/css';
 

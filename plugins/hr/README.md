@@ -1,18 +1,18 @@
-# @aomao/plugin-hr
+# @4399ywkf/plugin-hr
 
 分割线插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-hr
+$ yarn add @4399ywkf/plugin-hr
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Hr , { HrComponent } from '@aomao/plugin-hr';
+import Engine, { EngineInterface } from '@4399ywkf/engine';
+import Hr , { HrComponent } from '@4399ywkf/plugin-hr';
 
 new Engine(...,{ plugins:[Hr] , cards:[HrComponent]})
 ```

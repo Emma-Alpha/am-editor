@@ -1,18 +1,18 @@
-# @aomao/plugin-quote
+# @4399ywkf/plugin-quote
 
 引用样式插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-quote
+$ yarn add @4399ywkf/plugin-quote
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Quote from '@aomao/plugin-quote';
+import Engine, { EngineInterface } from '@4399ywkf/engine';
+import Quote from '@4399ywkf/plugin-quote';
 
 new Engine(...,{ plugins:[Quote] })
 ```

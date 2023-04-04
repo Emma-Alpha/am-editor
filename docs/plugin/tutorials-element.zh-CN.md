@@ -15,7 +15,7 @@
 继承 `ElementPlugin` 抽象类
 
 ```ts
-import { ElementPlugin } from '@aomao/engine'
+import { ElementPlugin } from '@4399ywkf/engine'
 
 export default class extends ElementPlugin {
 	...

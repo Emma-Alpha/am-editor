@@ -11,7 +11,7 @@
 继承 `ListPlugin` 抽象类
 
 ```ts
-import { ListPlugin } from '@aomao/engine'
+import { ListPlugin } from '@4399ywkf/engine'
 
 export default class extends ListPlugin {
 	...

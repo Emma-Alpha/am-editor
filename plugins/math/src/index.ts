@@ -14,7 +14,7 @@ import {
 	AjaxInterface,
 	READY_CARD_KEY,
 	CARD_VALUE_KEY,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import MathComponent, { MathValue } from './component';
 import locales from './locales';
 import { MathOptions } from './types';

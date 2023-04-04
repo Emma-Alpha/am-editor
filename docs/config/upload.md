@@ -79,8 +79,8 @@ import {
 	File,
 	isAndroid,
 	isEngine,
-} from '@aomao/engine';
-import { ImageComponent, ImageUploader } from '@aomao/plugin-image';
+} from '@4399ywkf/engine';
+import { ImageComponent, ImageUploader } from '@4399ywkf/plugin-image';
 import { ImageValue } from 'plugins/image/dist/component';
 // Inherit the original ImageUploader class and override the execute method
 class CustomizeImageUploader extends ImageUploader {
@@ -365,7 +365,7 @@ import Engine, {
 	File,
 	getExtensionName,
 	UploaderOptions,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 
 export default class {
 	// Process the picture before uploading, and the blob of the file will be displayed in the editor while waiting for upload

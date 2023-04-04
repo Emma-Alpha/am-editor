@@ -1,5 +1,5 @@
 import React from 'react';
-import { EngineInterface } from '@aomao/engine';
+import { EngineInterface } from '@4399ywkf/engine';
 import CollapseItem, { CollapseItemProps } from './item';
 
 export type CollapseGroupProps = {

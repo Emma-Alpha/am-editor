@@ -1,18 +1,18 @@
-# @aomao/plugin-fontcolor
+# @4399ywkf/plugin-fontcolor
 
 Foreground plugin
 
 ## Installation
 
 ```bash
-$ yarn add @aomao/plugin-fontcolor
+$ yarn add @4399ywkf/plugin-fontcolor
 ```
 
 Add to engine
 
 ```ts
-import Engine, {EngineInterface} from'@aomao/engine';
-import Fontcolor from'@aomao/plugin-fontcolor';
+import Engine, {EngineInterface} from'@4399ywkf/engine';
+import Fontcolor from'@4399ywkf/plugin-fontcolor';
 
 new Engine(...,{ plugins:[Fontcolor] })
 ```

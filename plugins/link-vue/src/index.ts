@@ -4,7 +4,7 @@ import {
 	InlinePlugin,
 	isEngine,
 	PluginOptions,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import type MarkdownIt from 'markdown-it';
 import Toolbar from './toolbar';
 import locales from './locales';

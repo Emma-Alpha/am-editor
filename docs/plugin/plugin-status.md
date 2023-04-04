@@ -1,18 +1,18 @@
-# @aomao/plugin-status
+# @4399ywkf/plugin-status
 
 Status plugin
 
 ## Install
 
 ```bash
-$ yarn add @aomao/plugin-status
+$ yarn add @4399ywkf/plugin-status
 ```
 
 Add to engine
 
 ```ts
-import Engine, {EngineInterface} from'@aomao/engine';
-import Status, {StatusComponent} from'@aomao/plugin-status';
+import Engine, {EngineInterface} from'@4399ywkf/engine';
+import Status, {StatusComponent} from'@4399ywkf/plugin-status';
 
 new Engine(...,{ plugins:[Status], cards:[StatusComponent]})
 ```

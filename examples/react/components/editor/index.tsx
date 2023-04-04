@@ -11,15 +11,15 @@ import { Modal, ModalFuncProps } from 'antd';
 import { LoadingOutlined } from '@ant-design/icons';
 import * as Y from 'yjs';
 //引入编辑器引擎
-import { $, EngineInterface, isHotkey, Path, isMobile } from '@aomao/engine';
-import { WebsocketProvider } from '@aomao/plugin-yjs-websocket';
+import { $, EngineInterface, isHotkey, Path, isMobile } from '@4399ywkf/engine';
+import { WebsocketProvider } from '@4399ywkf/plugin-yjs-websocket';
 import {
 	withYjs,
 	YjsEditor,
 	YCursorEditor,
 	CursorStateChangeEvent,
 	CursorData,
-} from '@aomao/plugin-yjs';
+} from '@4399ywkf/plugin-yjs';
 import EngineComponent, { EngineProps } from '../engine';
 
 import { Collaboration } from './collaborators';

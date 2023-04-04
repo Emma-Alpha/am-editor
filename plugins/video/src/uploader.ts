@@ -10,8 +10,8 @@ import {
 	CARD_VALUE_KEY,
 	decodeCardValue,
 	encodeCardValue,
-} from '@aomao/engine';
-import type { RequestData, RequestHeaders } from '@aomao/engine';
+} from '@4399ywkf/engine';
+import type { RequestData, RequestHeaders } from '@4399ywkf/engine';
 import VideoComponent, { VideoValue, VideoStatus } from './component';
 
 export interface VideoUploaderOptions extends PluginOptions {

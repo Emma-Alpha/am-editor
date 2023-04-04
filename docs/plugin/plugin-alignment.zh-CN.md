@@ -1,18 +1,18 @@
-# @aomao/plugin-alignment
+# @4399ywkf/plugin-alignment
 
 对齐方式：左对齐、居中对齐、右对齐、两端对齐
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-alignment
+$ yarn add @4399ywkf/plugin-alignment
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Alignment from '@aomao/plugin-alignment';
+import Engine, { EngineInterface } from '@4399ywkf/engine';
+import Alignment from '@4399ywkf/plugin-alignment';
 
 new Engine(...,{ plugins:[Alignment] })
 ```

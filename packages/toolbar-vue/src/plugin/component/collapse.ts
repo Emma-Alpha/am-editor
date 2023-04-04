@@ -1,6 +1,6 @@
 import { createApp, App } from 'vue';
 import Keymaster, { deleteScope, setScope, unbind } from 'keymaster';
-import { $, EngineInterface, NodeInterface, Position } from '@aomao/engine';
+import { $, EngineInterface, NodeInterface, Position } from '@4399ywkf/engine';
 import Collapse from '../../components/collapse/collapse.vue';
 import { CollapseGroupProps } from '../../types';
 

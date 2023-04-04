@@ -123,7 +123,7 @@ card node main attributes
 -   Name card name is the same as the imported CodeBlockComponent.cardName name
 
 ```typescript
-import { CodeBlockComponent } from '@aomao/plugin-codeblock';
+import { CodeBlockComponent } from '@4399ywkf/plugin-codeblock';
 ```
 
 -   Value The value of the card, used for card rendering, the type and structure of the value are defined and rendered by the card plugin when the card plugin is defined
@@ -149,9 +149,9 @@ Get and assign such custom values ​​with cards in am-editor
 ```typescript
 ...
 // import editor
-import Engine from '@aomao/engine'
+import Engine from '@4399ywkf/engine'
 // import the code block plugin
-import CodeBlock, { CodeBlockComponent } from '@aomao/plugin-codeblock'
+import CodeBlock, { CodeBlockComponent } from '@4399ywkf/plugin-codeblock'
 ...
 // editor render node
 const container = useRef<HTMLDivElement | null>(null);
@@ -181,9 +181,9 @@ The editor value obtained through engine.getValue() needs to be rendered through
 ```typescript
 ...
 // import view renderer
-import { View } from '@aomao/engine';
+import { View } from '@4399ywkf/engine';
 // import the code block plugin
-import CodeBlock, { CodeBlockComponent } from '@aomao/plugin-codeblock'
+import CodeBlock, { CodeBlockComponent } from '@4399ywkf/plugin-codeblock'
 ...
 const container = useRef<HTMLDivElement | null>(null);
 useEffect(() => {

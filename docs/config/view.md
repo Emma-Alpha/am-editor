@@ -9,7 +9,7 @@ The reader is mainly used for draft mode editing or simple content display. It n
 Passed in when instantiating the reader
 
 ```ts
-import {View} from'@aomao/engine';
+import {View} from'@4399ywkf/engine';
 //Instantiate the view
 const view = new View(render node, {
 ... configuration items,

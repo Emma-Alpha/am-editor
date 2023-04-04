@@ -1,4 +1,4 @@
-import { InsertNodeOperation, Node } from '@aomao/engine';
+import { InsertNodeOperation, Node } from '@4399ywkf/engine';
 import { getYTarget, editorNodeToYNode } from '../../transform';
 import * as Y from 'yjs';
 

@@ -4,7 +4,7 @@ import {
 	EditorInterface,
 	PluginOptions,
 	ToolbarItemOptions,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 
 export interface EmbedValue extends CardValue {
 	url?: string;

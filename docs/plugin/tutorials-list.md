@@ -11,7 +11,7 @@ For this type of plugin, we need to inherit the `ListPlugin` abstract class. The
 Inherit the `ListPlugin` abstract class
 
 ```ts
-import {ListPlugin} from'@aomao/engine'
+import {ListPlugin} from'@4399ywkf/engine'
 
 export default class extends ListPlugin {
 ...

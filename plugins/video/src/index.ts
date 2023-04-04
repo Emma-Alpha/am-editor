@@ -14,7 +14,7 @@ import {
 	READY_CARD_KEY,
 	sanitizeUrl,
 	SchemaInterface,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import VideoComponent from './component';
 import type { VideoValue, VideoStatus } from './component';
 import VideoUploader from './uploader';

@@ -5,7 +5,7 @@
 实例化引擎
 
 ```ts
-import Engine from '@aomao/engine';
+import Engine from '@4399ywkf/engine';
 ...
 //初始化
 const engine = new Engine("编辑器根节点", {
@@ -19,7 +19,7 @@ const engine = new Engine("编辑器根节点", {
 实例化方式与引擎大致相同
 
 ```ts
-import { View } from '@aomao/engine';
+import { View } from '@4399ywkf/engine';
 ...
 //初始化
 const view = new View("渲染器根节点", {
@@ -31,7 +31,7 @@ const view = new View("渲染器根节点", {
 在插件内部，我们可能需要对阅读模式做一些控制，我们可以通过 `isEngine` 来判定
 
 ```ts
-import { isEngine } from '@aomao/engine';
+import { isEngine } from '@4399ywkf/engine';
 
 ...
 if(isEngine(this.editor)) {
@@ -46,7 +46,7 @@ if(isEngine(this.editor)) {
 
 ## 编辑模式
 
-编辑模式我们需要控制 DOM 树、光标、事件等等让用户的输入达到最好的预期值与体验，这些都将由引擎`@aomao/engine`来完成
+编辑模式我们需要控制 DOM 树、光标、事件等等让用户的输入达到最好的预期值与体验，这些都将由引擎`@4399ywkf/engine`来完成
 
 ## 阅读模式
 

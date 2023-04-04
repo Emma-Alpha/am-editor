@@ -107,7 +107,7 @@ We can divide a separate area in the editor to display a complex editing module.
 To manipulate the complex DOM tree, it seems more troublesome to use the document.createElement related function that comes with the browser. It would be very convenient if there is a javascript library like `JQuery`, so we encapsulated a "simple version of the jquery library".
 
 ```ts
-import { $ } from '@aomao/engine';
+import { $ } from '@4399ywkf/engine';
 
 //Select node
 const node = $('CSS selector');

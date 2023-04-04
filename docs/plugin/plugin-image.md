@@ -1,18 +1,18 @@
-# @aomao/plugin-image
+# @4399ywkf/plugin-image
 
 Image plugin
 
 ## Installation
 
 ```bash
-$ yarn add @aomao/plugin-image
+$ yarn add @4399ywkf/plugin-image
 ```
 
 Add to engine
 
 ```ts
-import Engine, {EngineInterface} from'@aomao/engine';
-import Image, {ImageComponent, ImageUploader} from'@aomao/plugin-image';
+import Engine, {EngineInterface} from'@4399ywkf/engine';
+import Image, {ImageComponent, ImageUploader} from'@4399ywkf/plugin-image';
 
 new Engine(...,{ plugins:[ Image, ImageUploader], cards:[ ImageComponent ]})
 ```

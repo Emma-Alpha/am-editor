@@ -1,18 +1,18 @@
-# @aomao/plugin-video
+# @4399ywkf/plugin-video
 
 视频插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-video
+$ yarn add @4399ywkf/plugin-video
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Video , { VideoComponent , VideoUploader } from '@aomao/plugin-video';
+import Engine, { EngineInterface } from '@4399ywkf/engine';
+import Video , { VideoComponent , VideoUploader } from '@4399ywkf/plugin-video';
 
 new Engine(...,{ plugins:[ Video , VideoUploader ] , cards:[ VideoComponent ]})
 ```

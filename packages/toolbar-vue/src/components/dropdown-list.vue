@@ -24,7 +24,7 @@
 <script lang="ts">
 import { defineComponent, ref, onMounted } from 'vue'
 import ATooltip from "ant-design-vue/es/tooltip"
-import { formatHotkey, isMobile } from '@aomao/engine'
+import { formatHotkey, isMobile } from '@4399ywkf/engine'
 import { dropdownListProps , DropdownListItem } from '../types'
 import { autoGetHotkey } from "../utils"
 import 'ant-design-vue/es/tooltip/style'

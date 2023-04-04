@@ -8,7 +8,7 @@ import {
 	PluginOptions,
 	decodeCardValue,
 	READY_CARD_KEY,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import locales from './locale';
 import type MarkdownIt from 'markdown-it';
 import renderHTMLTemplate from './component/utils/render';

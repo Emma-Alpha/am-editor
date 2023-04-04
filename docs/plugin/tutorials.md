@@ -9,7 +9,7 @@ All plugins must inherit one of the plugin abstract classes and implement it. We
 Inherit the `Plugin` abstract class
 
 ```ts
-import {Plugin} from'@aomao/engine'
+import {Plugin} from'@4399ywkf/engine'
 
 export default class extends Plugin {
 ...
@@ -81,7 +81,7 @@ Type: `EditorInterface`
 When the plugin is instantiated, the editor instance will be passed in. We can access it through `this`
 
 ```ts
-import {Plugin, isEngine} from'@aomao/engine'
+import {Plugin, isEngine} from'@4399ywkf/engine'
 
 export default class extends Plugin<Options> {
 ...
@@ -163,7 +163,7 @@ We use [is-hotkey](https://github.com/ianstormtaylor/is-hotkey) to match whether
 We can also directly use isHotkey to determine whether it is hit
 
 ```ts
-import {isHotkey, Plugin} from'@aomao/engine'
+import {isHotkey, Plugin} from'@4399ywkf/engine'
 
 //Define the optional type
 export type Options = {
@@ -204,7 +204,7 @@ async waiting?(): Promise<void>;
 ### `Complete example`
 
 ```ts
-import { Plugin } from '@aomao/engine';
+import { Plugin } from '@4399ywkf/engine';
 
 export type Options = {
 	hotkey?: string | Array<string>;

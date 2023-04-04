@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef, useCallback } from 'react';
 import classNames from 'classnames-es-ts';
-import type { EngineInterface, Placement } from '@aomao/engine';
+import type { EngineInterface, Placement } from '@4399ywkf/engine';
 import { useRight } from '../hooks';
 import Button from '../button';
 import ColorPicker, { ColorPickerProps, Palette } from './picker';

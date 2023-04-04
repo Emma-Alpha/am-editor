@@ -79,8 +79,8 @@ import {
 	File,
 	isAndroid,
 	isEngine,
-} from '@aomao/engine';
-import { ImageComponent, ImageUploader } from '@aomao/plugin-image';
+} from '@4399ywkf/engine';
+import { ImageComponent, ImageUploader } from '@4399ywkf/plugin-image';
 import { ImageValue } from 'plugins/image/dist/component';
 // 继承原 ImageUploader 类，重写 execute 方法
 class CustomizeImageUploader extends ImageUploader {
@@ -366,7 +366,7 @@ import Engine, {
 	File,
 	getExtensionName,
 	UploaderOptions,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 
 export default class {
 	// 上传前处理图片，获取文件的Blob在上传等待中显示在编辑器中

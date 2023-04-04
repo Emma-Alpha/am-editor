@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { LanguageInterface } from '@aomao/engine';
+import { LanguageInterface } from '@4399ywkf/engine';
 import Input, { InputRef } from 'antd/es/input';
 import Button from 'antd/es/button';
 import classnames from 'classnames-es-ts';

@@ -7,7 +7,7 @@
 此类插件我们需要继承 `MarkPlugin` 抽象类，`MarkPlugin` 抽象类在继承 `ElementPlugin` 抽象类的基础上扩展了一些属性和方法。所以继承 `MarkPlugin` 的插件也同样拥有`ElementPlugin`抽象类的所有属性和方法
 
 ```ts
-import { MarkPlugin } from '@aomao/engine';
+import { MarkPlugin } from '@4399ywkf/engine';
 
 export default class extends MarkPlugin {
 	static get pluginName() {
@@ -30,7 +30,7 @@ export default class extends MarkPlugin {
 继承 `MarkPlugin` 抽象类
 
 ```ts
-import { MarkPlugin } from '@aomao/engine'
+import { MarkPlugin } from '@4399ywkf/engine'
 
 export default class extends MarkPlugin {
 	...

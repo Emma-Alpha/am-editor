@@ -1,17 +1,17 @@
-# @aomao/plugin-codeblock
+# @4399ywkf/plugin-codeblock
 
 代码块插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-codeblock
+$ yarn add @4399ywkf/plugin-codeblock
 ```
 
 `Vue3` 使用
 
 ```bash
-$ yarn add @aomao/plugin-codeblock-vue
+$ yarn add @4399ywkf/plugin-codeblock-vue
 ```
 
 `Vue2` 使用
@@ -23,8 +23,8 @@ $ yarn add am-editor-codeblock-vue2
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import CodeBlock , { CodeBlockComponent } from '@aomao/plugin-codeblock';
+import Engine, { EngineInterface } from '@4399ywkf/engine';
+import CodeBlock , { CodeBlockComponent } from '@4399ywkf/plugin-codeblock';
 
 new Engine(...,{ plugins:[CodeBlock] , cards:[CodeBlockComponent]})
 ```

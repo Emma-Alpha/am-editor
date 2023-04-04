@@ -1,18 +1,18 @@
-# @aomao/plugin-fontfamily
+# @4399ywkf/plugin-fontfamily
 
 Font plugin
 
 ## Installation
 
 ```bash
-$ yarn add @aomao/plugin-fontfamily
+$ yarn add @4399ywkf/plugin-fontfamily
 ```
 
 Add to engine
 
 ```ts
-import Engine, {EngineInterface} from'@aomao/engine';
-import Fontfamily from'@aomao/plugin-fontfamily';
+import Engine, {EngineInterface} from'@4399ywkf/engine';
+import Fontfamily from'@4399ywkf/plugin-fontfamily';
 
 new Engine(...,{ plugins:[Fontfamily] })
 ```
@@ -71,7 +71,7 @@ new Engine(...,{
 Part of the font list is built in the toolbar, which can be obtained by the following methods
 
 ```ts
-import { fontFamilyDefaultData, fontfamily } from '@aomao/toolbar'; // or @aomao/toolbar-vue
+import { fontFamilyDefaultData, fontfamily } from '@4399ywkf/toolbar'; // or @4399ywkf/toolbar-vue
 ```
 
 #### `fontfamily` Convert available drop-down list data

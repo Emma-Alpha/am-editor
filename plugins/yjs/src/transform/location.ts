@@ -1,4 +1,4 @@
-import { Element, Node, Path, Text } from '@aomao/engine';
+import { Element, Node, Path, Text } from '@4399ywkf/engine';
 import * as Y from 'yjs';
 import { sliceInsertDelta, yTextToInsertDelta } from './delta';
 import { YTarget } from './types';

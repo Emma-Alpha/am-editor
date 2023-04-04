@@ -1,18 +1,18 @@
-# @aomao/plugin-sub
+# @4399ywkf/plugin-sub
 
 下标样式插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-sub
+$ yarn add @4399ywkf/plugin-sub
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Sub from '@aomao/plugin-sub';
+import Engine, { EngineInterface } from '@4399ywkf/engine';
+import Sub from '@4399ywkf/plugin-sub';
 
 new Engine(...,{ plugins:[Sub] })
 ```

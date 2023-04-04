@@ -1,4 +1,4 @@
-import startServer from '@aomao/plugin-yjs-websocket/server'
+import startServer from '@4399ywkf/plugin-yjs-websocket/server'
 import * as dotenv from 'dotenv'
 import path from 'path'
 

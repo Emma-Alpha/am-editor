@@ -13,7 +13,7 @@ import {
 	CARD_VALUE_KEY,
 	transformCustomTags,
 	DATA_ID,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import type MarkdownIt from 'markdown-it';
 import TableComponent, { Template, Helper } from './component';
 import locales from './locale';

@@ -34,7 +34,7 @@
 </template>
 <script lang="ts">
 import { defineComponent, onMounted, PropType, ref } from 'vue';
-import { LanguageInterface } from '@aomao/engine';
+import { LanguageInterface } from '@4399ywkf/engine';
 import AConfigProvider from 'ant-design-vue/es/config-provider';
 import AInput from 'ant-design-vue/es/input';
 import AButton from 'ant-design-vue/es/button';

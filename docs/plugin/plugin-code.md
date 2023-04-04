@@ -1,18 +1,18 @@
-# @aomao/plugin-code
+# @4399ywkf/plugin-code
 
 Inline code style plugin
 
 ## Installation
 
 ```bash
-$ yarn add @aomao/plugin-code
+$ yarn add @4399ywkf/plugin-code
 ```
 
 Add to engine
 
 ```ts
-import Engine, {EngineInterface} from'@aomao/engine';
-import Code from'@aomao/plugin-code';
+import Engine, {EngineInterface} from'@4399ywkf/engine';
+import Code from'@4399ywkf/plugin-code';
 
 new Engine(...,{ plugins:[Code] })
 ```

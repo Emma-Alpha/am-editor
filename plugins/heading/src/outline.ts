@@ -5,7 +5,7 @@ import {
 	NodeInterface,
 	$,
 	isNodeEntry,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 
 export type OutlineData = {
 	id: string;

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import classnames from 'classnames-es-ts';
 import Tooltip from 'antd/es/tooltip';
-import { EngineInterface, formatHotkey, isMobile } from '@aomao/engine';
+import { EngineInterface, formatHotkey, isMobile } from '@4399ywkf/engine';
 import { autoGetHotkey } from '../utils';
 import 'antd/es/tooltip/style/css';
 

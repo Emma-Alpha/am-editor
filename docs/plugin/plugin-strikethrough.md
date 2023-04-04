@@ -1,18 +1,18 @@
-# @aomao/plugin-strikethrough
+# @4399ywkf/plugin-strikethrough
 
 Strikethrough style plugin
 
 ## Installation
 
 ```bash
-$ yarn add @aomao/plugin-strikethrough
+$ yarn add @4399ywkf/plugin-strikethrough
 ```
 
 Add to engine
 
 ```ts
-import Engine, {EngineInterface} from'@aomao/engine';
-import Strikethrough from'@aomao/plugin-strikethrough';
+import Engine, {EngineInterface} from'@4399ywkf/engine';
+import Strikethrough from'@4399ywkf/plugin-strikethrough';
 
 new Engine(...,{ plugins:[Strikethrough] })
 ```

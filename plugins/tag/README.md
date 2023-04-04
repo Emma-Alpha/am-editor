@@ -1,18 +1,18 @@
-# @aomao/plugin-tag
+# @4399ywkf/plugin-tag
 
 任务列表插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-tag
+$ yarn add @4399ywkf/plugin-tag
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Tag , { TagComponent } from '@aomao/plugin-tag';
+import Engine, { EngineInterface } from '@4399ywkf/engine';
+import Tag , { TagComponent } from '@4399ywkf/plugin-tag';
 
 new Engine(...,{ plugins:[Tag] , cards:[TagComponent] })
 ```

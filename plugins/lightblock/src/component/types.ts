@@ -1,4 +1,4 @@
-import { CardValue } from '@aomao/engine';
+import { CardValue } from '@4399ywkf/engine';
 
 export interface LightblockValue extends CardValue {
 	borderColor: string;

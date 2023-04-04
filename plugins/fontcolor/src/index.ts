@@ -1,4 +1,4 @@
-import { MarkPlugin, PluginOptions } from '@aomao/engine';
+import { MarkPlugin, PluginOptions } from '@4399ywkf/engine';
 
 export interface FontcolorOptions extends PluginOptions {
 	hotkey?: { key: string; args: Array<string> };

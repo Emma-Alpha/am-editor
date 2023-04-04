@@ -9,7 +9,7 @@ Usually used for completely custom rendering content
 Inherit the `Card` abstract class
 
 ```ts
-import {Card} from'@aomao/engine'
+import {Card} from'@4399ywkf/engine'
 
 export default class extends Card {
 ...
@@ -23,7 +23,7 @@ export default class extends Card {
 Rendering a card needs to display the `render` method, which is an abstract method and must be implemented
 
 ```ts
-import { $, Card } from '@aomao/engine';
+import { $, Card } from '@4399ywkf/engine';
 
 export default class extends Card {
 	static get cardName() {
@@ -57,7 +57,7 @@ Card components
 
 ```ts
 import ReactDOM from 'react-dom';
-import { $, Card, CardType } from '@aomao/engine';
+import { $, Card, CardType } from '@4399ywkf/engine';
 // import custom react components
 import ReactCommponent from 'ReactCommponent';
 
@@ -121,7 +121,7 @@ import {
 	PluginOptions,
 	decodeCardValue,
 	encodeCardValue,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import TestComponent from './component';
 
 export interface Options extends PluginOptions {
@@ -231,7 +231,7 @@ import {
 	isEngine,
 	NodeInterface,
 	ToolbarItemOptions,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import ReactDOM from 'react-dom';
 import TestComponent from './test';
 
@@ -304,7 +304,7 @@ import {
 	PluginOptions,
 	decodeCardValue,
 	encodeCardValue,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import TestComponent from './component';
 import type { TestValue } from './component';
 
@@ -405,7 +405,7 @@ Use card plugins
 
 ```tsx | pure
 import React, { useEffect, useRef, useState } from 'react';
-import Engine, { EngineInterface } from '@aomao/engine';
+import Engine, { EngineInterface } from '@4399ywkf/engine';
 // Import custom card plugins and card components test/index.ts
 import Test, { TestComponent } from './test';
 
@@ -464,7 +464,7 @@ Card components
 
 ```ts
 import Vue from 'vue';
-import { $, Card, CardType } from '@aomao/engine';
+import { $, Card, CardType } from '@4399ywkf/engine';
 // import custom vue components
 import VueCommponent from 'VueCommponent';
 
@@ -543,7 +543,7 @@ Card components
 
 ```ts
 import { createApp, App } from 'vue';
-import { $, Card, CardType } from '@aomao/engine';
+import { $, Card, CardType } from '@4399ywkf/engine';
 // import custom vue components
 import VueCommponent from 'VueCommponent';
 
@@ -612,7 +612,7 @@ import {
 	PluginOptions,
 	decodeCardValue,
 	encodeCardValue,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import TestComponent from './component';
 
 export interface Options extends PluginOptions {
@@ -725,7 +725,7 @@ import {
 	isEngine,
 	NodeInterface,
 	ToolbarItemOptions,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import { App, createApp } from 'vue';
 import TestVue from './test.vue';
 
@@ -799,7 +799,7 @@ import Engine, {
   isMobile,
   NodeInterface,
   removeUnit,
-} from "@aomao/engine";
+} from "@4399ywkf/engine";
 import Test, {TestComponent} from "./test";
 
 export default defineComponent({
@@ -877,7 +877,7 @@ import {
 	Card,
 	CardToolbarItemOptions,
 	ToolbarItemOptions,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 
 export default class extends Card {
 	static get cardName() {
@@ -936,7 +936,7 @@ Two values of `id` and `type` are provided by default, and the custom value cann
 -   `type` card type
 
 ```ts
-import {$, Card, CardType} from'@aomao/engine'
+import {$, Card, CardType} from'@4399ywkf/engine'
 
 export default class extends Card<{ count: number }> {
 
@@ -981,7 +981,7 @@ export default class extends Card<{ count: number }> {
 ### Combine with plugins
 
 ```ts
-import { Plugin, isEngine } from '@aomao/engine';
+import { Plugin, isEngine } from '@4399ywkf/engine';
 // import cards
 import CardComponent from './component';
 
@@ -1085,7 +1085,7 @@ Type: `EditorInterface`
 When the plugin is instantiated, the editor instance will be passed in. We can access it through `this`
 
 ```ts
-import {Card, isEngine} from'@aomao/engine'
+import {Card, isEngine} from'@4399ywkf/engine'
 
 export default class extends Card<Options> {
 ...
@@ -1129,7 +1129,7 @@ One or more CSS selectors can be set, and these nodes will become editable
 The value of the editable area needs to be customized and saved. It is recommended to save it in the `value` of the card
 
 ```ts
-import {Card, isEngine} from'@aomao/engine'
+import {Card, isEngine} from'@4399ywkf/engine'
 
 export default class extends Card<Options> {
 ...

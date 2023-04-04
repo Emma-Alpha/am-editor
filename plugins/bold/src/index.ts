@@ -1,5 +1,5 @@
 import type MarkdownIt from 'markdown-it';
-import { MarkPlugin, PluginOptions, isEngine } from '@aomao/engine';
+import { MarkPlugin, PluginOptions, isEngine } from '@4399ywkf/engine';
 
 export interface BoldOptions extends PluginOptions {
 	hotkey?: string | Array<string>;

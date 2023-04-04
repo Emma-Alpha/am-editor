@@ -3,7 +3,7 @@ import {
 	ElementPlugin,
 	PluginEntry,
 	PluginOptions,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 
 export interface AlignmentOptions extends PluginOptions {
 	hotkey?: {

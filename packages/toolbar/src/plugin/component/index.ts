@@ -8,7 +8,7 @@ import {
 	isServer,
 	CardValue,
 	DATA_CONTENTEDITABLE_KEY,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import { CollapseGroupProps } from '../../collapse/group';
 import { CollapseItemProps } from '../../collapse/item';
 import { getToolbarDefaultConfig } from '../../config/toolbar';

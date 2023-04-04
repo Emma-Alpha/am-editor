@@ -2,7 +2,7 @@
   "name": "site-ssr",
   "version": "1.0.0",
   "description": "",
-  "private": true,
+  "private": false,
   "scripts": {
     "start": "egg-scripts start --port=7001 --daemon --title=egg-aomao-ssr --env=prod",
     "stop": "egg-scripts stop --title=egg-aomao-ssr",

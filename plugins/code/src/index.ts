@@ -4,7 +4,7 @@ import {
 	InlinePlugin,
 	PluginOptions,
 	isEngine,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import './index.css';
 
 export interface CodeOptions extends PluginOptions {

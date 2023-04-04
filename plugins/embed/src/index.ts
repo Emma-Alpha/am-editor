@@ -10,7 +10,7 @@ import {
 	Plugin,
 	READY_CARD_KEY,
 	SchemaInterface,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import EmbedComponent from './component';
 import locales from './locales';
 import { EmbedOptions, EmbedValue } from './types';

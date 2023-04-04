@@ -1,4 +1,4 @@
-# @aomao/plugin-removeformat
+# @4399ywkf/plugin-removeformat
 
 Remove style plugin
 
@@ -9,14 +9,14 @@ Remove all block styles
 ## Installation
 
 ```bash
-$ yarn add @aomao/plugin-removeformat
+$ yarn add @4399ywkf/plugin-removeformat
 ```
 
 Add to engine
 
 ```ts
-import Engine, {EngineInterface} from'@aomao/engine';
-import Removeformat from'@aomao/plugin-removeformat';
+import Engine, {EngineInterface} from'@4399ywkf/engine';
+import Removeformat from'@4399ywkf/plugin-removeformat';
 
 new Engine(...,{ plugins:[Removeformat] })
 ```

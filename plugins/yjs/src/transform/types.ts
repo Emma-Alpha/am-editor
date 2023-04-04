@@ -1,5 +1,5 @@
 import type Y from 'yjs';
-import type { Element, Node } from '@aomao/engine';
+import type { Element, Node } from '@4399ywkf/engine';
 export type DeltaInsert = {
 	insert:
 		| string

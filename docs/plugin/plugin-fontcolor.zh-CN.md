@@ -1,18 +1,18 @@
-# @aomao/plugin-fontcolor
+# @4399ywkf/plugin-fontcolor
 
 前景色插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-fontcolor
+$ yarn add @4399ywkf/plugin-fontcolor
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Fontcolor from '@aomao/plugin-fontcolor';
+import Engine, { EngineInterface } from '@4399ywkf/engine';
+import Fontcolor from '@4399ywkf/plugin-fontcolor';
 
 new Engine(...,{ plugins:[Fontcolor] })
 ```

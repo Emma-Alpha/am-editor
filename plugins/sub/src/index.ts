@@ -5,7 +5,7 @@ import {
 	isEngine,
 	MarkPlugin,
 	PluginOptions,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import type MarkdownIt from 'markdown-it';
 import mdSub from 'markdown-it-sub';
 

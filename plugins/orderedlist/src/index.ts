@@ -4,7 +4,7 @@ import {
 	isEngine,
 	SchemaBlock,
 	PluginOptions,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import type MarkdownIt from 'markdown-it';
 
 export interface OrderedListOptions extends PluginOptions {

@@ -13,7 +13,7 @@ import {
 	decodeCardValue,
 	VIEW_CLASS_NAME,
 	SchemaBlock,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import type MarkdownIt from 'markdown-it';
 import CodeBlockComponent, {
 	CodeBlockEditor,

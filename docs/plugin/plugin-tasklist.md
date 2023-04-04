@@ -1,18 +1,18 @@
-# @aomao/plugin-tasklist
+# @4399ywkf/plugin-tasklist
 
 Task list plugin
 
 ## Installation
 
 ```bash
-$ yarn add @aomao/plugin-tasklist
+$ yarn add @4399ywkf/plugin-tasklist
 ```
 
 Add to engine
 
 ```ts
-import Engine, {EngineInterface} from'@aomao/engine';
-import Tasklist, {CheckboxComponent} from'@aomao/plugin-tasklist';
+import Engine, {EngineInterface} from'@4399ywkf/engine';
+import Tasklist, {CheckboxComponent} from'@4399ywkf/plugin-tasklist';
 
 new Engine(...,{ plugins:[Tasklist], cards:[CheckboxComponent] })
 ```

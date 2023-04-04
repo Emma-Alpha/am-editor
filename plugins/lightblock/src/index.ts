@@ -10,7 +10,7 @@ import {
 	encodeCardValue,
 	READY_CARD_KEY,
 	Parser,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import locales from './locale';
 import type MarkdownIt from 'markdown-it';
 import LightblockComponent from './component';

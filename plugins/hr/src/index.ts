@@ -7,7 +7,7 @@ import {
 	SchemaInterface,
 	CARD_VALUE_KEY,
 	decodeCardValue,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import type MarkdownIt from 'markdown-it';
 import HrComponent, { HrValue } from './component';
 import { HrOptions } from './types';

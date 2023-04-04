@@ -1,18 +1,18 @@
-# @aomao/plugin-strikethrough
+# @4399ywkf/plugin-strikethrough
 
 删除线样式插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-strikethrough
+$ yarn add @4399ywkf/plugin-strikethrough
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Strikethrough from '@aomao/plugin-strikethrough';
+import Engine, { EngineInterface } from '@4399ywkf/engine';
+import Strikethrough from '@4399ywkf/plugin-strikethrough';
 
 new Engine(...,{ plugins:[Strikethrough] })
 ```

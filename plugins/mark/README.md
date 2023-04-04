@@ -1,18 +1,18 @@
-# @aomao/plugin-mark
+# @4399ywkf/plugin-mark
 
 标记样式插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-mark
+$ yarn add @4399ywkf/plugin-mark
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Mark from '@aomao/plugin-mark';
+import Engine, { EngineInterface } from '@4399ywkf/engine';
+import Mark from '@4399ywkf/plugin-mark';
 
 new Engine(...,{ plugins:[Mark] })
 ```

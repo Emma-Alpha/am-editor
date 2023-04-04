@@ -9,7 +9,7 @@ toc: menu
 在实例化阅读器时传入
 
 ```ts
-import { View } from '@aomao/engine';
+import { View } from '@4399ywkf/engine';
 //实例化引擎
 const view = new View(渲染节点, {
 	...配置项,

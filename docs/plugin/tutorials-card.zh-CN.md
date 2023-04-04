@@ -9,7 +9,7 @@
 继承 `Card` 抽象类
 
 ```ts
-import { Card } from '@aomao/engine'
+import { Card } from '@4399ywkf/engine'
 
 export default class extends Card {
 	...
@@ -23,7 +23,7 @@ export default class extends Card {
 渲染一个卡片需要显示 `render` 方法，这是个抽象方法，必须要实现它
 
 ```ts
-import { $, Card } from '@aomao/engine';
+import { $, Card } from '@4399ywkf/engine';
 
 export default class extends Card {
 	static get cardName() {
@@ -57,7 +57,7 @@ export default () => <div>React Commponent</div>;
 
 ```ts
 import ReactDOM from 'react-dom';
-import { $, Card, CardType } from '@aomao/engine';
+import { $, Card, CardType } from '@4399ywkf/engine';
 // 引入自定义的 react 组件
 import ReactCommponent from 'ReactCommponent';
 
@@ -111,7 +111,7 @@ export default class extends Card {
 `test/component/types.ts`
 
 ```ts
-import { CardValue } from '@aomao/engine';
+import { CardValue } from '@4399ywkf/engine';
 
 export interface TestValue extends CardValue {
 	text: string;
@@ -144,7 +144,7 @@ import {
 	isEngine,
 	NodeInterface,
 	ToolbarItemOptions,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import ReactDOM from 'react-dom';
 import TestComponent from './test';
 import type { TestValue } from './types';
@@ -222,7 +222,7 @@ import {
 	PluginOptions,
 	decodeCardValue,
 	encodeCardValue,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import TestComponent from './component';
 import type { TestValue } from './component';
 
@@ -326,7 +326,7 @@ export type { TestValue };
 
 ```tsx | pure
 import React, { useEffect, useRef, useState } from 'react';
-import Engine, { EngineInterface } from '@aomao/engine';
+import Engine, { EngineInterface } from '@4399ywkf/engine';
 // 导入自定义的卡片插件和卡片组件 test/index.ts
 import Test, { TestComponent } from './test';
 
@@ -385,7 +385,7 @@ export default class VueComponent extends Vue {
 
 ```ts
 import Vue from 'vue';
-import { $, Card, CardType } from '@aomao/engine';
+import { $, Card, CardType } from '@4399ywkf/engine';
 // 引入自定义的 vue 组件
 import VueCommponent from 'VueCommponent';
 
@@ -464,7 +464,7 @@ export default defineComponent({
 
 ```ts
 import { createApp, App } from 'vue';
-import { $, Card, CardType } from '@aomao/engine';
+import { $, Card, CardType } from '@4399ywkf/engine';
 // 引入自定义的 vue 组件
 import VueCommponent from 'VueCommponent';
 
@@ -533,7 +533,7 @@ import {
 	PluginOptions,
 	decodeCardValue,
 	encodeCardValue,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import TestComponent from './component';
 
 export interface Options extends PluginOptions {
@@ -657,7 +657,7 @@ import {
 	isEngine,
 	NodeInterface,
 	ToolbarItemOptions,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import { App, createApp } from 'vue';
 import TestVue from './test.vue';
 
@@ -732,7 +732,7 @@ import Engine, {
   isMobile,
   NodeInterface,
   removeUnit,
-} from "@aomao/engine";
+} from "@4399ywkf/engine";
 import Test, { TestComponent } from "./test";
 
 export default defineComponent({
@@ -810,7 +810,7 @@ import {
 	Card,
 	CardToolbarItemOptions,
 	ToolbarItemOptions,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 
 export default class extends Card {
 	static get cardName() {
@@ -869,7 +869,7 @@ export default class extends Card {
 -   `type` 卡片类型
 
 ```ts
-import { $, Card, CardType } from '@aomao/engine'
+import { $, Card, CardType } from '@4399ywkf/engine'
 
 export default class extends Card<{ count: number }> {
 
@@ -914,7 +914,7 @@ export default class extends Card<{ count: number }> {
 ### 与插件结合
 
 ```ts
-import { Plugin, isEngine } from '@aomao/engine';
+import { Plugin, isEngine } from '@4399ywkf/engine';
 // 引入卡片
 import CardComponent from './component';
 
@@ -1018,7 +1018,7 @@ export default class extends Plugin {
 在插件实例化的时候，会传入编辑器实例。我们可以通过 `this` 访问它
 
 ```ts
-import { Card, isEngine } from '@aomao/engine'
+import { Card, isEngine } from '@4399ywkf/engine'
 
 export default class extends Card<Options> {
 	...
@@ -1062,7 +1062,7 @@ export default class extends Card<Options> {
 可编辑区域的值需要自定义保存。推荐保存在卡片的 `value` 里面
 
 ```ts
-import { Card, isEngine } from '@aomao/engine'
+import { Card, isEngine } from '@4399ywkf/engine'
 
 export default class extends Card<Options> {
 	...

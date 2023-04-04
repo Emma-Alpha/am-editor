@@ -1,5 +1,5 @@
 import { ref, onMounted, Ref } from 'vue';
-import { isMobile } from '@aomao/engine';
+import { isMobile } from '@4399ywkf/engine';
 
 const useRight = (button: Ref<HTMLElement | null>) => {
 	const isRight = ref(false);

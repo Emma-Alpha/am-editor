@@ -3,7 +3,7 @@ import {
 	Plugin,
 	EDITABLE_SELECTOR,
 	PluginOptions,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 
 export interface SelectAllOptions extends PluginOptions {}
 

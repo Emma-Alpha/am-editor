@@ -6,7 +6,7 @@ import {
 	ToolbarItemOptions,
 	SelectStyleType,
 	CardValue,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import './index.css';
 import { HrOptions } from './types';
 export interface HrValue extends CardValue {}

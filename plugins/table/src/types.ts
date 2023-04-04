@@ -1,4 +1,4 @@
-import { EditorInterface } from '@aomao/engine';
+import { EditorInterface } from '@4399ywkf/engine';
 import {
 	CardInterface,
 	CardToolbarItemOptions,
@@ -7,7 +7,7 @@ import {
 	NodeInterface,
 	PluginOptions,
 	ToolbarItemOptions,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import { EventEmitter2 } from 'eventemitter2';
 
 export interface HelperInterface {

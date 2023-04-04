@@ -1,18 +1,18 @@
-# @aomao/plugin-underline
+# @4399ywkf/plugin-underline
 
 下划线样式插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-underline
+$ yarn add @4399ywkf/plugin-underline
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Underline from '@aomao/plugin-underline';
+import Engine, { EngineInterface } from '@4399ywkf/engine';
+import Underline from '@4399ywkf/plugin-underline';
 
 new Engine(...,{ plugins:[Underline] })
 ```

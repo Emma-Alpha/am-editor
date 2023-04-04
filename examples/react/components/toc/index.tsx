@@ -6,8 +6,8 @@ import React, {
 	useContext,
 } from 'react';
 import classnames from 'classnames';
-import { $, EditorInterface, isEngine } from '@aomao/engine';
-import { Outline, OutlineData } from '@aomao/plugin-heading';
+import { $, EditorInterface, isEngine } from '@4399ywkf/engine';
+import { Outline, OutlineData } from '@4399ywkf/plugin-heading';
 import context from '../../context';
 import { findReadingSection } from './utils';
 import './index.css';

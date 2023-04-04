@@ -1,18 +1,18 @@
-# @aomao/plugin-fontsize
+# @4399ywkf/plugin-fontsize
 
 Font size plugin
 
 ## Installation
 
 ```bash
-$ yarn add @aomao/plugin-fontsize
+$ yarn add @4399ywkf/plugin-fontsize
 ```
 
 Add to engine
 
 ```ts
-import Engine, {EngineInterface} from'@aomao/engine';
-import Fontsize from'@aomao/plugin-fontsize';
+import Engine, {EngineInterface} from'@4399ywkf/engine';
+import Fontsize from'@4399ywkf/plugin-fontsize';
 
 new Engine(...,{ plugins:[Fontsize] })
 ```

@@ -9,7 +9,7 @@ toc: menu
 ## 安装
 
 ```bash
-yarn add yjs @aomao/plugin-yjs @aomao/plugin-yjs-websocket
+yarn add yjs @4399ywkf/plugin-yjs @4399ywkf/plugin-yjs-websocket
 ```
 
 ## 使用
@@ -17,8 +17,8 @@ yarn add yjs @aomao/plugin-yjs @aomao/plugin-yjs-websocket
 ### 客户端
 
 ```ts
-import { withYjs, YjsEditor, YCursorEditor, CursorStateChangeEvent, CursorData } from '@aomao/plugin-yjs';
-import { WebsocketProvider } from '@aomao/plugin-yjs-websocket';
+import { withYjs, YjsEditor, YCursorEditor, CursorStateChangeEvent, CursorData } from '@4399ywkf/plugin-yjs';
+import { WebsocketProvider } from '@4399ywkf/plugin-yjs-websocket';
 
 // 初始化 yjs doc
 const doc = new Y.Doc()
@@ -86,16 +86,16 @@ YCursorEditor.on(e, 'change', handleCursorChange);
 
 ### 服务端
 
-`@aomao/plugin-yjs-websocket` 也提供了 `nodejs` 服务端的实现，可以直接使用
+`@4399ywkf/plugin-yjs-websocket` 也提供了 `nodejs` 服务端的实现，可以直接使用
 
 ```ts
-yarn add yjs @aomao/plugin-yjs-websocket
+yarn add yjs @4399ywkf/plugin-yjs-websocket
 ```
 
 简单配置即可使用
 
 ```ts
-import startServer from '@aomao/plugin-yjs-websocket/server';
+import startServer from '@4399ywkf/plugin-yjs-websocket/server';
 // 启动服务，默认端口为 1234，使用 leveldb 作为数据库
 startServer();
 ```

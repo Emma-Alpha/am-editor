@@ -22,7 +22,7 @@
 <script lang="ts">
 import { defineComponent, ref} from "vue"
 import ATooltip from "ant-design-vue/es/tooltip"
-import { formatHotkey, isMobile } from '@aomao/engine'
+import { formatHotkey, isMobile } from '@4399ywkf/engine'
 import { autoGetHotkey } from "../utils"
 import { buttonProps } from "../types"
 import 'ant-design-vue/es/tooltip/style'

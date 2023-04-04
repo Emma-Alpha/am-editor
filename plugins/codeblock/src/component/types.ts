@@ -1,5 +1,5 @@
 import { Editor, EditorConfiguration } from 'codemirror';
-import { EditorInterface, NodeInterface } from '@aomao/engine';
+import { EditorInterface, NodeInterface } from '@4399ywkf/engine';
 
 export type Options = {
 	styleMap?: Record<string, string>;

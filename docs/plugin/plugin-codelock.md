@@ -1,17 +1,17 @@
-# @aomao/plugin-codeblock
+# @4399ywkf/plugin-codeblock
 
 Code block plugin
 
 ## Installation
 
 ```bash
-$ yarn add @aomao/plugin-codeblock
+$ yarn add @4399ywkf/plugin-codeblock
 ```
 
 `Vue3` use
 
 ```bash
-$ yarn add @aomao/plugin-codeblock-vue
+$ yarn add @4399ywkf/plugin-codeblock-vue
 ```
 
 `Vue2` use
@@ -23,8 +23,8 @@ $ yarn add am-editor-codeblock-vue2
 Add to engine
 
 ```ts
-import Engine, {EngineInterface} from'@aomao/engine';
-import CodeBlock, {CodeBlockComponent} from'@aomao/plugin-codeblock';
+import Engine, {EngineInterface} from'@4399ywkf/engine';
+import CodeBlock, {CodeBlockComponent} from'@4399ywkf/plugin-codeblock';
 
 new Engine(...,{ plugins:[CodeBlock], cards:[CodeBlockComponent]})
 ```

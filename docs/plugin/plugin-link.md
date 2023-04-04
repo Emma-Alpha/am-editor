@@ -1,17 +1,17 @@
-# @aomao/plugin-link
+# @4399ywkf/plugin-link
 
 Link plugin
 
 ## Installation
 
 ```bash
-yarn add @aomao/plugin-link
+yarn add @4399ywkf/plugin-link
 ```
 
 `Vue3` use
 
 ```bash
-yarn add @aomao/plugin-link-vue
+yarn add @4399ywkf/plugin-link-vue
 ```
 
 `Vue2` use
@@ -23,8 +23,8 @@ yarn add am-editor-link-vue2
 Add to engine
 
 ```ts
-import Engine, {EngineInterface} from'@aomao/engine';
-import Link from'@aomao/plugin-link';
+import Engine, {EngineInterface} from'@4399ywkf/engine';
+import Link from'@4399ywkf/plugin-link';
 
 new Engine(...,{ plugins:[Link] })
 ```

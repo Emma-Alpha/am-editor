@@ -5,7 +5,7 @@ import {
 	UI,
 	TRIGGER_CARD_ID,
 	isMobile,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 
 export type Options = {
 	colors: Array<{

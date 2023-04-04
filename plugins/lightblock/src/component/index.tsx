@@ -8,7 +8,7 @@ import {
 	NodeInterface,
 	Parser,
 	ToolbarItemOptions,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import ReactDOM from 'react-dom';
 import type { LightblockValue } from './types';
 import Theme, { themeIcon } from './theme';

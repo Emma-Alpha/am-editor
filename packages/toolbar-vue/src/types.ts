@@ -1,4 +1,4 @@
-import type { EngineInterface, Placement } from '@aomao/engine';
+import type { EngineInterface, Placement } from '@4399ywkf/engine';
 import { ExtractPropTypes, PropType, VNode } from 'vue';
 import omit from 'lodash/omit';
 

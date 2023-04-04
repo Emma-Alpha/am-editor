@@ -2,15 +2,15 @@
 
 ## am-editor 支持 Vue2 吗？
 
-引擎库 `@aomao/engine` 本身是 javascript 编写的，不涉及到前端框架。主要在于一些插件我们使用了前端框架渲染
+引擎库 `@4399ywkf/engine` 本身是 javascript 编写的，不涉及到前端框架。主要在于一些插件我们使用了前端框架渲染
 
 下面这三个插件有区别
 
--   `@aomao/toolbar-vue` 编辑器工具栏。按钮、图标、下拉框、颜色选择器等都是复杂的 UI
+-   `@4399ywkf/toolbar-vue` 编辑器工具栏。按钮、图标、下拉框、颜色选择器等都是复杂的 UI
 
--   `@aomao/plugin-codeblock-vue` 选择代码语言的下拉框具有搜索功能，使用前端库现有的 UI 是比较好的选择
+-   `@4399ywkf/plugin-codeblock-vue` 选择代码语言的下拉框具有搜索功能，使用前端库现有的 UI 是比较好的选择
 
--   `@aomao/plugin-link-vue` 链接输入、文本输入，使用前端库现有的 UI 是比较好的选择
+-   `@4399ywkf/plugin-link-vue` 链接输入、文本输入，使用前端库现有的 UI 是比较好的选择
 
 这三个插件都有 vue3 的依赖，并且使用的是 antd UI 库。其它插件没有依赖任何前端框架
 

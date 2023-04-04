@@ -9,7 +9,7 @@ This open-source library listens to changes in the `HTML` structure of the editi
 ## Installation
 
 ```bash
-yarn add yjs @aomao/plugin-yjs @aomao/plugin-yjs-websocket
+yarn add yjs @4399ywkf/plugin-yjs @4399ywkf/plugin-yjs-websocket
 ```
 
 ## Usage
@@ -17,8 +17,8 @@ yarn add yjs @aomao/plugin-yjs @aomao/plugin-yjs-websocket
 ### Client
 
 ```ts
-import { withYjs, YjsEditor, YCursorEditor, CursorStateChangeEvent, CursorData } from '@aomao/plugin-yjs';
-import { WebsocketProvider } from '@aomao/plugin-yjs-websocket';
+import { withYjs, YjsEditor, YCursorEditor, CursorStateChangeEvent, CursorData } from '@4399ywkf/plugin-yjs';
+import { WebsocketProvider } from '@4399ywkf/plugin-yjs-websocket';
 
 // Initialize yjs doc
 const doc = new Y.Doc()
@@ -88,16 +88,16 @@ YCursorEditor.on(e, 'change', handleCursorChange);
 
 ### Server
 
-`@aomao/plugin-yjs-websocket` also provides an implementation of `nodejs` server that can be used directly
+`@4399ywkf/plugin-yjs-websocket` also provides an implementation of `nodejs` server that can be used directly
 
 ```ts
-yarn add yjs @aomao/plugin-yjs-websocket
+yarn add yjs @4399ywkf/plugin-yjs-websocket
 ```
 
 Simply configure it and use it
 
 ```ts
-import startServer from '@aomao/plugin-yjs-websocket/server';
+import startServer from '@4399ywkf/plugin-yjs-websocket/server';
 // Start the server, the default port is 1234, and leveldb is used as the database
 startServer();
 ```

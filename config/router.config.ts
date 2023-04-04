@@ -80,7 +80,7 @@ export default (opts: {
 					'/plugin/plugin-line-height',
 					'/plugin/plugin-lightblock',
 					{
-						title: '@aomao/plugin-mark',
+						title: '@4399ywkf/plugin-mark',
 						path: '/plugin/plugin-mark',
 						exact: true,
 					},

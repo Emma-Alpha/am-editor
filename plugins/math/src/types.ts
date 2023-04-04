@@ -5,7 +5,7 @@ import {
 	RequestData,
 	RequestHeaders,
 	ToolbarItemOptions,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 
 export interface MathOptions extends PluginOptions {
 	/**

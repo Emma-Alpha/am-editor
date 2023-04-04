@@ -22,7 +22,7 @@ import {
 	CardInterface,
 	Path,
 	Node as ModelNode,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 
 export interface MarkRangeOptions extends PluginOptions {
 	keys: Array<string>;

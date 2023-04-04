@@ -1,18 +1,18 @@
-# @aomao/plugin-sup
+# @4399ywkf/plugin-sup
 
 Superscript style plugin
 
 ## Installation
 
 ```bash
-$ yarn add @aomao/plugin-sup
+$ yarn add @4399ywkf/plugin-sup
 ```
 
 Add to engine
 
 ```ts
-import Engine, {EngineInterface} from'@aomao/engine';
-import Sup from'@aomao/plugin-sup';
+import Engine, {EngineInterface} from'@4399ywkf/engine';
+import Sup from'@4399ywkf/plugin-sup';
 
 new Engine(...,{ plugins:[Sup] })
 ```

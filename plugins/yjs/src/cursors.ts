@@ -2,8 +2,8 @@ import {
 	EngineInterface,
 	CursorAttribute,
 	EditorInterface,
-} from '@aomao/engine';
-import { Awareness } from '@aomao/plugin-yjs-protocols/awareness';
+} from '@4399ywkf/engine';
+import { Awareness } from '@4399ywkf/plugin-yjs-protocols/awareness';
 import { CursorState, CursorData } from './types';
 import { YjsEditor } from './yjs';
 

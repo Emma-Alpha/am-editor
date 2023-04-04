@@ -1,18 +1,18 @@
-# @aomao/plugin-mermaid
+# @4399ywkf/plugin-mermaid
 
 mermaid plugin (support markdown syntax to generate mermaid charts)
 
 ## Install
 
 ```bash
-yarn add @aomao/plugin-mermaid
+yarn add @4399ywkf/plugin-mermaid
 ```
 
 add to engine
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Mermaid , { MermaidComponent } from '@aomao/plugin-mermaid';
+import Engine, { EngineInterface } from '@4399ywkf/engine';
+import Mermaid , { MermaidComponent } from '@4399ywkf/plugin-mermaid';
 
 new Engine(...,{ plugins:[Mermaid] , cards:[MermaidComponent]})
 ```

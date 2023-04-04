@@ -3,9 +3,9 @@
 引入工具栏
 
 ```ts
-//vue3 请使用 @aomao/toolbar-vue
+//vue3 请使用 @4399ywkf/toolbar-vue
 //vue2 请使用 am-editor-toolbar-vue2
-import Toolbar, { ToolbarPlugin, ToolbarComponent } from '@aomao/toolbar';
+import Toolbar, { ToolbarPlugin, ToolbarComponent } from '@4399ywkf/toolbar';
 ```
 
 -   Toolbar 工具栏组件
@@ -61,7 +61,7 @@ items: [
 通过组件形式使用工具栏，需要传入引擎实例和 items 配置项
 
 ```ts
-import Toolbar from '@aomao/toolbar';
+import Toolbar from '@4399ywkf/toolbar';
 
 <Toolbar engine={engine} items={items} />;
 ```
@@ -71,8 +71,8 @@ import Toolbar from '@aomao/toolbar';
 跟随鼠标拖蓝选中后的工具栏弹出框
 
 ```ts
-import { ToolbarPlugin } from '@aomao/toolbar';
-import type { ToolbarOptions } from '@aomao/toolbar';
+import { ToolbarPlugin } from '@4399ywkf/toolbar';
+import type { ToolbarOptions } from '@4399ywkf/toolbar';
 const toolbarOptions: ToolbarOptions = {
 	popup: {
 		items: [
@@ -102,8 +102,8 @@ new Engine(...,{ config: {
 输入 / 后弹出卡片工具栏
 
 ```ts
-import { ToolbarPlugin } from '@aomao/toolbar';
-import type { ToolbarOptions } from '@aomao/toolbar';
+import { ToolbarPlugin } from '@4399ywkf/toolbar';
+import type { ToolbarOptions } from '@4399ywkf/toolbar';
 const toolbarOptions: ToolbarOptions = {
 	// 或者配置 config: false 关闭此功能
 	config: [

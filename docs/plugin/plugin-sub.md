@@ -1,18 +1,18 @@
-# @aomao/plugin-sub
+# @4399ywkf/plugin-sub
 
 Subscript style plugin
 
 ## Installation
 
 ```bash
-$ yarn add @aomao/plugin-sub
+$ yarn add @4399ywkf/plugin-sub
 ```
 
 Add to engine
 
 ```ts
-import Engine, {EngineInterface} from'@aomao/engine';
-import Sub from'@aomao/plugin-sub';
+import Engine, {EngineInterface} from'@4399ywkf/engine';
+import Sub from'@4399ywkf/plugin-sub';
 
 new Engine(...,{ plugins:[Sub] })
 ```

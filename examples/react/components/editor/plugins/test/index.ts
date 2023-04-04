@@ -9,7 +9,7 @@ import {
 	decodeCardValue,
 	encodeCardValue,
 	READY_CARD_KEY,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import TestComponent from './component';
 import type { TestValue } from './component';
 

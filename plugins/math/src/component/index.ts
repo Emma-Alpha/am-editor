@@ -9,7 +9,7 @@ import {
 	NodeInterface,
 	Position,
 	ToolbarItemOptions,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import { getLocales } from '../utils';
 import MathEditor from './editor';
 import './index.css';

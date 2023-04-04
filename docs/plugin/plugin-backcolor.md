@@ -1,18 +1,18 @@
-# @aomao/plugin-backcolor
+# @4399ywkf/plugin-backcolor
 
 Background color plugin
 
 ## Installation
 
 ```bash
-$ yarn add @aomao/plugin-backcolor
+$ yarn add @4399ywkf/plugin-backcolor
 ```
 
 Add to engine
 
 ```ts
-import Engine, {EngineInterface} from'@aomao/engine';
-import Backcolor from'@aomao/plugin-backcolor';
+import Engine, {EngineInterface} from'@4399ywkf/engine';
+import Backcolor from'@4399ywkf/plugin-backcolor';
 
 new Engine(...,{ plugins:[Backcolor] })
 ```

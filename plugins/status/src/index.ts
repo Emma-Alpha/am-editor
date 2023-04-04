@@ -10,7 +10,7 @@ import {
 	decodeCardValue,
 	CARD_VALUE_KEY,
 	READY_CARD_KEY,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import StatusComponent, { StatusValue } from './components';
 import locales from './locales';
 import { StatusOptions } from './types';

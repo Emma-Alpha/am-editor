@@ -15,9 +15,9 @@ import {
 	encodeCardValue,
 	removeUnit,
 	CardType,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import type MarkdownIt from 'markdown-it';
-import type { RequestData, RequestHeaders } from '@aomao/engine';
+import type { RequestData, RequestHeaders } from '@4399ywkf/engine';
 import { ImageOptions } from '.';
 import ImageComponent, { ImageValue } from './component';
 export interface ImageUploaderOptions extends PluginOptions {

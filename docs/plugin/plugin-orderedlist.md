@@ -1,18 +1,18 @@
-# @aomao/plugin-orderedlist
+# @4399ywkf/plugin-orderedlist
 
 Ordered list plugin
 
 ## Installation
 
 ```bash
-$ yarn add @aomao/plugin-orderedlist
+$ yarn add @4399ywkf/plugin-orderedlist
 ```
 
 Add to engine
 
 ```ts
-import Engine, {EngineInterface} from'@aomao/engine';
-import Orderedlist from'@aomao/plugin-orderedlist';
+import Engine, {EngineInterface} from'@4399ywkf/engine';
+import Orderedlist from'@4399ywkf/plugin-orderedlist';
 
 new Engine(...,{ plugins:[Orderedlist] })
 ```

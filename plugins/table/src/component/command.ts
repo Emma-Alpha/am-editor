@@ -7,7 +7,7 @@ import {
 	isEngine,
 	NodeInterface,
 	Parser,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import { EventEmitter2 } from 'eventemitter2';
 import { TableCommandInterface, TableInterface } from '../types';
 import Template from './template';

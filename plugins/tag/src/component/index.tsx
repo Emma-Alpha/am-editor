@@ -4,7 +4,7 @@ import {
 	CardType,
 	NodeInterface,
 	SelectStyleType,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import ReactDOM from 'react-dom';
 import React from 'react';
 import TagComponent from './tag';

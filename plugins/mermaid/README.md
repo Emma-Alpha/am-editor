@@ -1,18 +1,18 @@
-# @aomao/plugin-mermaid
+# @4399ywkf/plugin-mermaid
 
 mermaid 插件 (支持 markdown 语法生成 mermaid 图表)
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-mermaid
+$ yarn add @4399ywkf/plugin-mermaid
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Mermaid , { MermaidComponent } from '@aomao/plugin-mermaid';
+import Engine, { EngineInterface } from '@4399ywkf/engine';
+import Mermaid , { MermaidComponent } from '@4399ywkf/plugin-mermaid';
 
 new Engine(...,{ plugins:[Mermaid] , cards:[MermaidComponent]})
 ```

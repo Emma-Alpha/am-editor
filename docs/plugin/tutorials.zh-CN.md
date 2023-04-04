@@ -9,7 +9,7 @@
 继承 `Plugin` 抽象类
 
 ```ts
-import { Plugin } from '@aomao/engine'
+import { Plugin } from '@4399ywkf/engine'
 
 export default class extends Plugin {
 	...
@@ -81,7 +81,7 @@ const engine = new Engine(渲染节点, {
 在插件实例化的时候，会传入编辑器实例。我们可以通过 `this` 访问它
 
 ```ts
-import { Plugin, isEngine } from '@aomao/engine'
+import { Plugin, isEngine } from '@4399ywkf/engine'
 
 export default class extends Plugin<Options> {
 	...
@@ -163,7 +163,7 @@ editor.command.execute('插件名称', '小明');
 我们也可以直接使用 isHotkey 来判断是否命中
 
 ```ts
-import { isHotkey, Plugin } from '@aomao/engine'
+import { isHotkey, Plugin } from '@4399ywkf/engine'
 
 //定义可选项类型
 export type Options = {
@@ -204,7 +204,7 @@ async waiting?(): Promise<void>;
 ### `完整例子`
 
 ```ts
-import { Plugin } from '@aomao/engine';
+import { Plugin } from '@4399ywkf/engine';
 
 export type Options = {
 	hotkey?: string | Array<string>;

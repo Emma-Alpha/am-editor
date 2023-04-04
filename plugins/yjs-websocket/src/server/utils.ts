@@ -2,8 +2,8 @@
 import WebSocket from 'ws';
 import http from 'http';
 import * as Y from 'yjs';
-import * as syncProtocol from '@aomao/plugin-yjs-protocols/sync';
-import * as awarenessProtocol from '@aomao/plugin-yjs-protocols/awareness';
+import * as syncProtocol from '@4399ywkf/plugin-yjs-protocols/sync';
+import * as awarenessProtocol from '@4399ywkf/plugin-yjs-protocols/awareness';
 
 import * as encoding from 'lib0/encoding';
 import * as decoding from 'lib0/decoding';

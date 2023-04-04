@@ -1,5 +1,5 @@
 import type { ImageOptions, PswpInterface } from '@/types';
-import type { EditorInterface, NodeInterface } from '@aomao/engine';
+import type { EditorInterface, NodeInterface } from '@4399ywkf/engine';
 import {
 	$,
 	isEngine,
@@ -9,7 +9,7 @@ import {
 	isMobile,
 	Resizer,
 	CardType,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import PhotoSwipe from 'photoswipe';
 import { ImageValue } from '..';
 import Pswp from '../pswp';

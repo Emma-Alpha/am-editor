@@ -1,5 +1,5 @@
 import { omit } from './object';
-import { Text, Node } from '@aomao/engine';
+import { Text, Node } from '@4399ywkf/engine';
 
 export function getProperties<TNode extends Node>(
 	node: TNode,

@@ -1,22 +1,22 @@
-# @aomao/plugin-paintformat
+# @4399ywkf/plugin-paintformat
 
 Format brush plugin
 
 Support all mark tag plugins
 
-The block supports the following plugins: `@aomao/plugin-heading` `@aomao/plugin-orderlist` `@aomao/plugin-unorderedlist`
+The block supports the following plugins: `@4399ywkf/plugin-heading` `@4399ywkf/plugin-orderlist` `@4399ywkf/plugin-unorderedlist`
 
 ## Installation
 
 ```bash
-$ yarn add @aomao/plugin-paintformat
+$ yarn add @4399ywkf/plugin-paintformat
 ```
 
 Add to engine
 
 ```ts
-import Engine, {EngineInterface} from'@aomao/engine';
-import Paintformat from'@aomao/plugin-paintformat';
+import Engine, {EngineInterface} from'@4399ywkf/engine';
+import Paintformat from'@4399ywkf/plugin-paintformat';
 
 new Engine(...,{ plugins:[Paintformat] })
 ```
@@ -25,7 +25,7 @@ new Engine(...,{ plugins:[Paintformat] })
 
 ### Remove
 
-Remove the style command, or provide a method. The default is removeformat, you need to add the `@aomao/plugin-removeformat` plugin
+Remove the style command, or provide a method. The default is removeformat, you need to add the `@4399ywkf/plugin-removeformat` plugin
 
 ```ts
 removeCommand?:string | ((range:RangeInterface) => void);

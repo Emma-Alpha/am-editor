@@ -1,4 +1,4 @@
-import { isEngine, Plugin, PluginOptions } from '@aomao/engine';
+import { isEngine, Plugin, PluginOptions } from '@4399ywkf/engine';
 
 export interface RemoveformatOptions extends PluginOptions {
 	hotkey?: string | Array<string>;

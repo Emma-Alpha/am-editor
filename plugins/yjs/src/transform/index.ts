@@ -1,5 +1,5 @@
 import * as Y from 'yjs';
-import { Element, Node, Text } from '@aomao/engine';
+import { Element, Node, Text } from '@4399ywkf/engine';
 import { DeltaInsert, InsertDelta } from './types';
 import { getProperties } from './editable';
 

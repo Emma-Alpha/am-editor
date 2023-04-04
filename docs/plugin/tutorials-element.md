@@ -15,7 +15,7 @@ For this type of plugin, we need to inherit the `ElementPlugin` abstract class. 
 Inherit the `ElementPlugin` abstract class
 
 ```ts
-import {ElementPlugin} from'@aomao/engine'
+import {ElementPlugin} from'@4399ywkf/engine'
 
 export default class extends ElementPlugin {
 ...

@@ -1,4 +1,4 @@
-import type { EngineInterfacem, Parser } from '@aomao/engine';
+import type { EngineInterfacem, Parser } from '@4399ywkf/engine';
 
 declare global {
 	interface Window {

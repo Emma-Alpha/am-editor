@@ -6,7 +6,7 @@ import {
 	isMobile,
 	NodeInterface,
 	CardValue,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import './index.css';
 
 const CHECKBOX_CLASS = 'data-checkbox';

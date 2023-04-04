@@ -5,7 +5,7 @@ In am-editor, the editor is a separate mode for reading and writing. Editing mod
 Instantiate engine
 
 ```ts
-import Engine from'@aomao/engine';
+import Engine from'@4399ywkf/engine';
 ...
 //initialization
 const engine = new Engine("Editor root node", {
@@ -19,7 +19,7 @@ Although it is a read-write separation mode, most of the logic for rendering con
 The instantiation method is roughly the same as the engine
 
 ```ts
-import {View} from'@aomao/engine';
+import {View} from'@4399ywkf/engine';
 ...
 //initialization
 const view = new View("Renderer root node", {
@@ -31,7 +31,7 @@ const view = new View("Renderer root node", {
 Inside the plugin, we may need to control the reading mode, we can use `isEngine` to determine
 
 ```ts
-import {isEngine} from'@aomao/engine';
+import {isEngine} from'@4399ywkf/engine';
 
 ...
 if(isEngine(this.editor)) {
@@ -46,7 +46,7 @@ if(isEngine(this.editor)) {
 
 ## Edit mode
 
-In the editing mode, we need to control the DOM tree, cursor, events, etc., so that the user's input can achieve the best expected value and experience, all of which will be done by the engine `@aomao/engine`
+In the editing mode, we need to control the DOM tree, cursor, events, etc., so that the user's input can achieve the best expected value and experience, all of which will be done by the engine `@4399ywkf/engine`
 
 ## Reading Mode
 

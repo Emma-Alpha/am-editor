@@ -1,4 +1,4 @@
-import { isEngine, MarkPlugin, PluginOptions } from '@aomao/engine';
+import { isEngine, MarkPlugin, PluginOptions } from '@4399ywkf/engine';
 import type MarkdownIt from 'markdown-it';
 
 export interface ItalicOptions extends PluginOptions {

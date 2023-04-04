@@ -1,4 +1,4 @@
-# @aomao/plugin-embed
+# @4399ywkf/plugin-embed
 
 嵌入网址
 
@@ -7,14 +7,14 @@
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-embed
+$ yarn add @4399ywkf/plugin-embed
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Embed , { EmbedComponent } from '@aomao/plugin-embed';
+import Engine, { EngineInterface } from '@4399ywkf/engine';
+import Embed , { EmbedComponent } from '@4399ywkf/plugin-embed';
 
 new Engine(...,{ plugins:[ Embed ] , cards:[ EmbedComponent ]})
 ```

@@ -1,18 +1,18 @@
-# @aomao/plugin-lightblock
+# @4399ywkf/plugin-lightblock
 
 高亮块、提示框插件(React)
 
 ## 安装
 
 ```bash
-yarn add @aomao/plugin-lightblock
+yarn add @4399ywkf/plugin-lightblock
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import lightblock from '@aomao/plugin-lightblock';
+import Engine, { EngineInterface } from '@4399ywkf/engine';
+import lightblock from '@4399ywkf/plugin-lightblock';
 
 new Engine(...,{ plugins:[lightblock] })
 ```

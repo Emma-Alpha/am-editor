@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { EngineInterface } from '@aomao/engine';
+import { EngineInterface } from '@4399ywkf/engine';
 import classnames from 'classnames-es-ts';
 import Button from '../button';
 import { useRight } from '../hooks';

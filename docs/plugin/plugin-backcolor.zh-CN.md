@@ -1,18 +1,18 @@
-# @aomao/plugin-backcolor
+# @4399ywkf/plugin-backcolor
 
 背景颜色插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-backcolor
+$ yarn add @4399ywkf/plugin-backcolor
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Backcolor from '@aomao/plugin-backcolor';
+import Engine, { EngineInterface } from '@4399ywkf/engine';
+import Backcolor from '@4399ywkf/plugin-backcolor';
 
 new Engine(...,{ plugins:[Backcolor] })
 ```

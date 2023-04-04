@@ -1,18 +1,18 @@
-# @aomao/plugin-hr
+# @4399ywkf/plugin-hr
 
 Split line plugin
 
 ## Installation
 
 ```bash
-$ yarn add @aomao/plugin-hr
+$ yarn add @4399ywkf/plugin-hr
 ```
 
 Add to engine
 
 ```ts
-import Engine, {EngineInterface} from'@aomao/engine';
-import Hr, {HrComponent} from'@aomao/plugin-hr';
+import Engine, {EngineInterface} from'@4399ywkf/engine';
+import Hr, {HrComponent} from'@4399ywkf/plugin-hr';
 
 new Engine(...,{ plugins:[Hr], cards:[HrComponent]})
 ```

@@ -16,7 +16,7 @@ import {
 	DATA_CONTENTEDITABLE_KEY,
 	ToolbarItemOptions,
 	CardToolbarItemOptions,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import CollapseComponent, { CollapseComponentInterface } from './collapse';
 import { MentionItem } from '../types';
 import './index.css';

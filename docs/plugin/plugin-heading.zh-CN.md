@@ -1,18 +1,18 @@
-# @aomao/plugin-heading
+# @4399ywkf/plugin-heading
 
 标题样式插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-heading
+$ yarn add @4399ywkf/plugin-heading
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Heading from '@aomao/plugin-heading';
+import Engine, { EngineInterface } from '@4399ywkf/engine';
+import Heading from '@4399ywkf/plugin-heading';
 
 new Engine(...,{ plugins:[Heading] })
 ```
@@ -113,10 +113,10 @@ engine.command.queryState('heading');
 
 生成标题的大纲数据
 
-需要从 `@aomao/plugin-heading` 导入 `Outline` 类
+需要从 `@4399ywkf/plugin-heading` 导入 `Outline` 类
 
 ```ts
-import { Outline } from '@aomao/plugin-heading';
+import { Outline } from '@4399ywkf/plugin-heading';
 ```
 
 ### `normalize`
@@ -161,8 +161,8 @@ getFromDom(rootNode: Element): OutlineData[];
 
 ```ts
 import React, { useRef, useEffect, useState, useCallback } from 'react';
-import { $, EditorInterface } from '@aomao/engine';
-import { Outline, OutlineData } from '@aomao/plugin-heading';
+import { $, EditorInterface } from '@4399ywkf/engine';
+import { Outline, OutlineData } from '@4399ywkf/plugin-heading';
 
 type Props = {
 	editor: EditorInterface;

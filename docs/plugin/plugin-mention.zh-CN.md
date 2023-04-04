@@ -1,18 +1,18 @@
-# @aomao/plugin-mention
+# @4399ywkf/plugin-mention
 
 提及插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-mention
+$ yarn add @4399ywkf/plugin-mention
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Mention, { MentionComponent } from '@aomao/plugin-mention';
+import Engine, { EngineInterface } from '@4399ywkf/engine';
+import Mention, { MentionComponent } from '@4399ywkf/plugin-mention';
 
 new Engine(...,{ plugins:[Mention], cards: [MentionComponent] })
 ```

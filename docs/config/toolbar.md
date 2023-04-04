@@ -3,9 +3,9 @@
 Introduce the toolbar
 
 ```ts
-//vue3 please use @aomao/toolbar-vue
+//vue3 please use @4399ywkf/toolbar-vue
 //vue2 please use am-editor-toolbar-vue2
-import Toolbar, { ToolbarPlugin, ToolbarComponent } from '@aomao/toolbar';
+import Toolbar, { ToolbarPlugin, ToolbarComponent } from '@4399ywkf/toolbar';
 ```
 
 -Toolbar Toolbar component
@@ -57,7 +57,7 @@ If the default configuration is found through the `name` attribute, the `type` a
 To use the toolbar in the form of components, you need to pass in the engine instance and items configuration items
 
 ```ts
-import Toolbar from '@aomao/toolbar';
+import Toolbar from '@4399ywkf/toolbar';
 
 <Toolbar engine={engine} items={items} />;
 ```
@@ -67,8 +67,8 @@ import Toolbar from '@aomao/toolbar';
 Follow the mouse to drag the selected toolbar pop-up box
 
 ```ts
-import {ToolbarPlugin} from'@aomao/toolbar';
-import type {ToolbarOptions} from'@aomao/toolbar';
+import {ToolbarPlugin} from'@4399ywkf/toolbar';
+import type {ToolbarOptions} from'@4399ywkf/toolbar';
 const toolbarOptions: ToolbarOptions = {
     popup: {
         items: [
@@ -98,8 +98,8 @@ new Engine(...,{ config: {
 Popup card toolbar after typing /
 
 ```ts
-import { ToolbarPlugin } from '@aomao/toolbar';
-import type { ToolbarOptions } from '@aomao/toolbar';
+import { ToolbarPlugin } from '@4399ywkf/toolbar';
+import type { ToolbarOptions } from '@4399ywkf/toolbar';
 const toolbarOptions: ToolbarOptions = {
     // or configure config: false to turn off this feature
     config: [

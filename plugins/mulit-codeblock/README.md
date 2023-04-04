@@ -1,18 +1,18 @@
-# @aomao/plugin-mulit-codeblock
+# @4399ywkf/plugin-mulit-codeblock
 
 多功能代码块组件(React)
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-mulit-codeblock
+$ yarn add @4399ywkf/plugin-mulit-codeblock
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import mulit_codeblock from '@aomao/plugin-mulit-codeblock';
+import Engine, { EngineInterface } from '@4399ywkf/engine';
+import mulit_codeblock from '@4399ywkf/plugin-mulit-codeblock';
 
 new Engine(...,{ plugins:{
 	[mulit_codeblock]: {

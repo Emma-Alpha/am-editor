@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import codeMirror, { Editor } from 'codemirror';
 import { MulitLangItem, MulitCodeProps, MulitCodeblockValue } from '../type';
-import { $, isEngine, isHotkey, isMobile } from '@aomao/engine';
+import { $, isEngine, isHotkey, isMobile } from '@4399ywkf/engine';
 import debounce from 'lodash/debounce';
 import { langSyntaxMap } from './index';
 

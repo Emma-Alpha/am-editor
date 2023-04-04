@@ -1,18 +1,18 @@
-# @aomao/plugin-redo
+# @4399ywkf/plugin-redo
 
 Redo history plugin
 
 ## Installation
 
 ```bash
-$ yarn add @aomao/plugin-redo
+$ yarn add @4399ywkf/plugin-redo
 ```
 
 Add to engine
 
 ```ts
-import Engine, {EngineInterface} from'@aomao/engine';
-import Redo from'@aomao/plugin-redo';
+import Engine, {EngineInterface} from'@4399ywkf/engine';
+import Redo from'@4399ywkf/plugin-redo';
 
 new Engine(...,{ plugins:[Redo] })
 ```

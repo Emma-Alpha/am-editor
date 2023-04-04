@@ -1,4 +1,4 @@
-# @aomao/plugin-mark-range
+# @4399ywkf/plugin-mark-range
 
 Cursor area marking plugin
 
@@ -9,14 +9,14 @@ Can be used to cooperate with development similar to comments, crossed comments
 ## Installation
 
 ```bash
-$ yarn add @aomao/plugin-mark-range
+$ yarn add @4399ywkf/plugin-mark-range
 ```
 
 Add to engine
 
 ```ts
-import Engine, {EngineInterface} from'@aomao/engine';
-import MarkRange from'@aomao/plugin-mark-range';
+import Engine, {EngineInterface} from'@4399ywkf/engine';
+import MarkRange from'@4399ywkf/plugin-mark-range';
 
 new Engine(...,{ plugins:[MarkRange] })
 ```

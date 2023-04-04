@@ -3,7 +3,7 @@ import {
 	Operation,
 	Element,
 	EngineInterface,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import * as Y from 'yjs';
 import { applyYjsEvents } from './apply-to-editor/apply-yjs-events';
 import { applyEditorOp } from './apply-to-yjs';

@@ -3,7 +3,7 @@ import { message } from 'antd';
 import Clipboard from 'clipboard';
 import debounce from 'lodash/debounce';
 import { Editor } from 'codemirror';
-import { EditorInterface } from '@aomao/engine';
+import { EditorInterface } from '@4399ywkf/engine';
 
 interface IProps {
 	mirror: Editor | null;

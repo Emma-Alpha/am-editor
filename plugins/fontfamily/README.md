@@ -1,18 +1,18 @@
-# @aomao/plugin-fontfamily
+# @4399ywkf/plugin-fontfamily
 
 字体插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-fontfamily
+$ yarn add @4399ywkf/plugin-fontfamily
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Fontfamily from '@aomao/plugin-fontfamily';
+import Engine, { EngineInterface } from '@4399ywkf/engine';
+import Fontfamily from '@4399ywkf/plugin-fontfamily';
 
 new Engine(...,{ plugins:[Fontfamily] })
 ```
@@ -71,7 +71,7 @@ new Engine(...,{
 工具栏中内置了部分字体列表，可以通过以下方法获取
 
 ```ts
-import { fontFamilyDefaultData, fontfamily } from '@aomao/toolbar'; // 或 @aomao/toolbar-vue
+import { fontFamilyDefaultData, fontfamily } from '@4399ywkf/toolbar'; // 或 @4399ywkf/toolbar-vue
 ```
 
 #### `fontfamily` 转换可用的下拉列表数据

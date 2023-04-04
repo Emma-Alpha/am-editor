@@ -1,18 +1,18 @@
-# @aomao/plugin-image
+# @4399ywkf/plugin-image
 
 图片插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-image
+$ yarn add @4399ywkf/plugin-image
 ```
 
 添加到引擎
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Image , { ImageComponent , ImageUploader } from '@aomao/plugin-image';
+import Engine, { EngineInterface } from '@4399ywkf/engine';
+import Image , { ImageComponent , ImageUploader } from '@4399ywkf/plugin-image';
 
 new Engine(...,{ plugins:[ Image , ImageUploader ] , cards:[ ImageComponent ]})
 ```

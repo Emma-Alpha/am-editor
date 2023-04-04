@@ -1,18 +1,18 @@
-# @aomao/plugin-alignment
+# @4399ywkf/plugin-alignment
 
 Alignment: left, center, right, justified
 
 ## Installation
 
 ```bash
-$ yarn add @aomao/plugin-alignment
+$ yarn add @4399ywkf/plugin-alignment
 ```
 
 Add to engine
 
 ```ts
-import Engine, {EngineInterface} from'@aomao/engine';
-import Alignment from'@aomao/plugin-alignment';
+import Engine, {EngineInterface} from'@4399ywkf/engine';
+import Alignment from'@4399ywkf/plugin-alignment';
 
 new Engine(...,{ plugins:[Alignment] })
 ```

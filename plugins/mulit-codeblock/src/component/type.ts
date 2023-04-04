@@ -1,4 +1,4 @@
-import { CardValue, EditorInterface } from '@aomao/engine';
+import { CardValue, EditorInterface } from '@4399ywkf/engine';
 import { Editor } from 'codemirror';
 
 export interface MulitLangItem {

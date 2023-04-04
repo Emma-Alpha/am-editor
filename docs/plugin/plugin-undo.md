@@ -1,18 +1,18 @@
-# @aomao/plugin-undo
+# @4399ywkf/plugin-undo
 
 Undo history plugin
 
 ## Installation
 
 ```bash
-$ yarn add @aomao/plugin-undo
+$ yarn add @4399ywkf/plugin-undo
 ```
 
 Add to engine
 
 ```ts
-import Engine, {EngineInterface} from'@aomao/engine';
-import Undo from'@aomao/plugin-undo';
+import Engine, {EngineInterface} from'@4399ywkf/engine';
+import Undo from'@4399ywkf/plugin-undo';
 
 new Engine(...,{ plugins:[Undo] })
 ```

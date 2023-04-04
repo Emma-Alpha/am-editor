@@ -5,8 +5,8 @@ import {
 	NodeInterface,
 	PluginOptions,
 	ToolbarItemOptions,
-} from '@aomao/engine';
-import type { RequestData, RequestHeaders } from '@aomao/engine';
+} from '@4399ywkf/engine';
+import type { RequestData, RequestHeaders } from '@4399ywkf/engine';
 
 export type MentionItem = { key?: string; name: string; avatar?: string };
 export interface MentionOptions extends PluginOptions {

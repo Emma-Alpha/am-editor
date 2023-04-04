@@ -1,6 +1,6 @@
 import React from 'react';
 import classnames from 'classnames-es-ts';
-import { isMobile, LanguageInterface } from '@aomao/engine';
+import { isMobile, LanguageInterface } from '@4399ywkf/engine';
 import Tooltip from 'antd/es/tooltip';
 import 'antd/es/tooltip/style/css';
 

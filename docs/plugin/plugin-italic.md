@@ -1,18 +1,18 @@
-# @aomao/plugin-italic
+# @4399ywkf/plugin-italic
 
 Italic style plugin
 
 ## Installation
 
 ```bash
-$ yarn add @aomao/plugin-italic
+$ yarn add @4399ywkf/plugin-italic
 ```
 
 Add to engine
 
 ```ts
-import Engine, {EngineInterface} from'@aomao/engine';
-import Italic from'@aomao/plugin-italic';
+import Engine, {EngineInterface} from'@4399ywkf/engine';
+import Italic from'@4399ywkf/plugin-italic';
 
 new Engine(...,{ plugins:[Italic] })
 ```

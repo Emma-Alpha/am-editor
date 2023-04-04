@@ -1,4 +1,4 @@
-import { EditorInterface } from '@aomao/engine';
+import { EditorInterface } from '@4399ywkf/engine';
 
 export const getLocales = <T extends string | {} = string>(
 	editor: EditorInterface,

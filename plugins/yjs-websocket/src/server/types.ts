@@ -1,5 +1,5 @@
 import { WebSocket } from 'ws';
-import awarenessProtocol from '@aomao/plugin-yjs-protocols/awareness';
+import awarenessProtocol from '@4399ywkf/plugin-yjs-protocols/awareness';
 import { Doc } from 'yjs';
 
 export interface WSSharedDoc extends Doc {

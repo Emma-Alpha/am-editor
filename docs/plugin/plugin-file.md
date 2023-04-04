@@ -1,18 +1,18 @@
-# @aomao/plugin-file
+# @4399ywkf/plugin-file
 
 File plugin
 
 ## Installation
 
 ```bash
-$ yarn add @aomao/plugin-file
+$ yarn add @4399ywkf/plugin-file
 ```
 
 Add to engine
 
 ```ts
-import Engine, {EngineInterface} from'@aomao/engine';
-import File, {FileComponent, FileUploader} from'@aomao/plugin-file';
+import Engine, {EngineInterface} from'@4399ywkf/engine';
+import File, {FileComponent, FileUploader} from'@4399ywkf/plugin-file';
 
 new Engine(...,{ plugins:[ File, FileUploader], cards:[ FileComponent ]})
 ```

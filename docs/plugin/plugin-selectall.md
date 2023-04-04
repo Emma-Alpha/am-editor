@@ -1,18 +1,18 @@
-# @aomao/plugin-selectall
+# @4399ywkf/plugin-selectall
 
 Select all plugins
 
 ## Installation
 
 ```bash
-$ yarn add @aomao/plugin-selectall
+$ yarn add @4399ywkf/plugin-selectall
 ```
 
 Add to engine
 
 ```ts
-import Engine, {EngineInterface} from'@aomao/engine';
-import Selectall from'@aomao/plugin-selectall';
+import Engine, {EngineInterface} from'@4399ywkf/engine';
+import Selectall from'@4399ywkf/plugin-selectall';
 
 new Engine(...,{ plugins:[Selectall] })
 ```

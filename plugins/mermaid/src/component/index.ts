@@ -8,7 +8,7 @@ import {
 	ToolbarItemOptions,
 	Resizer,
 	isMobile,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import type { MermaidValue } from './types';
 import { MermaidChart } from './mermaid';
 import './index.css';

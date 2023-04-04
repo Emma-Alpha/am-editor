@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { isMobile } from '@aomao/engine';
+import { isMobile } from '@4399ywkf/engine';
 
 const useRight = (button: React.MutableRefObject<HTMLDivElement | null>) => {
 	const [isRight, setIsRight] = useState(false);

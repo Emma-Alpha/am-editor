@@ -7,7 +7,7 @@ Usually used for text modification, for example, bold, italic, underline, backgr
 For this type of plugin, we need to inherit the `MarkPlugin` abstract class. The `MarkPlugin` abstract class extends some properties and methods on the basis of inheriting the `ElementPlugin` abstract class. So the plugin that inherits `MarkPlugin` also has all the attributes and methods of the `ElementPlugin` abstract class
 
 ```ts
-import { MarkPlugin } from '@aomao/engine';
+import { MarkPlugin } from '@4399ywkf/engine';
 
 export default class extends MarkPlugin {
 	static get pluginName() {
@@ -30,7 +30,7 @@ After executing `editor.command.execute("mark-plugin")`, the text at the cursor 
 Inherit the `MarkPlugin` abstract class
 
 ```ts
-import {MarkPlugin} from'@aomao/engine'
+import {MarkPlugin} from'@4399ywkf/engine'
 
 export default class extends MarkPlugin {
 ...

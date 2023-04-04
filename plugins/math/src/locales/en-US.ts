@@ -1,4 +1,4 @@
-import { isMacos } from '@aomao/engine';
+import { isMacos } from '@4399ywkf/engine';
 
 export default {
 	math: {

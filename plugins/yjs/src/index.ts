@@ -1,6 +1,6 @@
 import * as Y from 'yjs';
-import { EngineInterface } from '@aomao/engine';
-import { Awareness } from '@aomao/plugin-yjs-protocols/awareness';
+import { EngineInterface } from '@4399ywkf/engine';
+import { Awareness } from '@4399ywkf/plugin-yjs-protocols/awareness';
 import {
 	WithCursorsOptions,
 	withYCursors,

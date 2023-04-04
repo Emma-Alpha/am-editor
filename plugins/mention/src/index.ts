@@ -13,7 +13,7 @@ import {
 	CARD_VALUE_KEY,
 	Element,
 	Node,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import MentionComponent, { MentionValue } from './component';
 import locales from './locales';
 import { MentionOptions } from './types';

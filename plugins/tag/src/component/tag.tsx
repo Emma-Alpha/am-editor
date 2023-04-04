@@ -5,7 +5,7 @@ import 'antd/es/popover/style/css';
 import Input from 'antd/es/input/index';
 import 'antd/es/input/style/css';
 import uniqBy from 'lodash/uniqBy';
-import { EditorInterface } from '@aomao/engine';
+import { EditorInterface } from '@4399ywkf/engine';
 
 interface ValueItem {
 	type: IType;

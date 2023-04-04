@@ -11,7 +11,7 @@
 继承 `BlockPlugin` 抽象类
 
 ```ts
-import { BlockPlugin } from '@aomao/engine'
+import { BlockPlugin } from '@4399ywkf/engine'
 
 export default class extends BlockPlugin {
 	...

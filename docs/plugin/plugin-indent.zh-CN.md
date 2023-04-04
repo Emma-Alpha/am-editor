@@ -1,11 +1,11 @@
-# @aomao/plugin-indent
+# @4399ywkf/plugin-indent
 
 缩进插件
 
 ## 安装
 
 ```bash
-$ yarn add @aomao/plugin-indent
+$ yarn add @4399ywkf/plugin-indent
 ```
 
 添加到引擎
@@ -13,8 +13,8 @@ $ yarn add @aomao/plugin-indent
 此插件建议放在第一个增加，以免其它插件拦截了事件，使其无法生效
 
 ```ts
-import Engine, { EngineInterface } from '@aomao/engine';
-import Indent from '@aomao/plugin-indent';
+import Engine, { EngineInterface } from '@4399ywkf/engine';
+import Indent from '@4399ywkf/plugin-indent';
 
 new Engine(...,{ plugins:[Indent] })
 ```

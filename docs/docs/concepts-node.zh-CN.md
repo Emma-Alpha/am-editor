@@ -107,7 +107,7 @@ p 标签在引擎中属于默认所需的块级节点，用于表明一个段落
 要操作复杂的 DOM 树，使用浏览器自带的 document.createElement 相关函数看起来比较麻烦。如果有像`JQuery`的 javascript 库则会很方便，因此我们封装了一个"简易版的 jquery 库"。
 
 ```ts
-import { $ } from '@aomao/engine';
+import { $ } from '@4399ywkf/engine';
 
 //选择节点
 const node = $('CSS选择器');

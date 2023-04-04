@@ -32,7 +32,7 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-import { isMobile } from '@aomao/engine'
+import { isMobile } from '@4399ywkf/engine'
 import AmPopover from 'ant-design-vue/es/popover'
 import AmButton from './button.vue'
 import AmDropdown from './dropdown.vue'

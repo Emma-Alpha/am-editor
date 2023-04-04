@@ -1,18 +1,18 @@
-# @aomao/plugin-heading
+# @4399ywkf/plugin-heading
 
 Heading style plugin
 
 ## Installation
 
 ```bash
-$ yarn add @aomao/plugin-heading
+$ yarn add @4399ywkf/plugin-heading
 ```
 
 Add to engine
 
 ```ts
-import Engine, {EngineInterface} from'@aomao/engine';
-import Heading from'@aomao/plugin-heading';
+import Engine, {EngineInterface} from'@4399ywkf/engine';
+import Heading from'@4399ywkf/plugin-heading';
 
 new Engine(...,{ plugins:[Heading] })
 ```
@@ -115,10 +115,10 @@ engine.command.queryState('heading');
 
 Generate headline outline data
 
-Need to import the `Outline` class from `@aomao/plugin-heading`
+Need to import the `Outline` class from `@4399ywkf/plugin-heading`
 
 ```ts
-import { Outline } from '@aomao/plugin-heading';
+import { Outline } from '@4399ywkf/plugin-heading';
 ```
 
 ### `normalize`
@@ -165,8 +165,8 @@ getFromDom(rootNode: Element): OutlineData[];
 
 ```ts
 import React, { useRef, useEffect, useState, useCallback } from 'react';
-import { $, EditorInterface } from '@aomao/engine';
-import { Outline, OutlineData } from '@aomao/plugin-heading';
+import { $, EditorInterface } from '@4399ywkf/engine';
+import { Outline, OutlineData } from '@4399ywkf/plugin-heading';
 
 type Props = {
 	editor: EditorInterface;

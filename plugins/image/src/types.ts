@@ -5,7 +5,7 @@ import {
 	NodeInterface,
 	PluginOptions,
 	ToolbarItemOptions,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import { EventEmitter2 } from 'eventemitter2';
 import PhotoSwipe from 'photoswipe';
 

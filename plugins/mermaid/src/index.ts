@@ -1,4 +1,4 @@
-import { Plugin, isEngine, NodeInterface } from '@aomao/engine';
+import { Plugin, isEngine, NodeInterface } from '@4399ywkf/engine';
 import type MarkdownIt from 'markdown-it';
 import MermaidComponent from './component';
 import type { MermaidValue } from './component';

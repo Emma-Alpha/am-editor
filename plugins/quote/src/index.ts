@@ -4,7 +4,7 @@ import {
 	NodeInterface,
 	BlockPlugin,
 	PluginOptions,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import type MarkdownIt from 'markdown-it';
 import './index.css';
 

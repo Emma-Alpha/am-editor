@@ -7,7 +7,7 @@ Usually used in scenarios where the text is individually styled and cannot be ne
 For this type of plugin, we need to inherit the `InlinePlugin` abstract class. The `InlinePlugin` abstract class extends some properties and methods on the basis of inheriting the `ElementPlugin` abstract class. So the plugin that inherits `InlinePlugin` also has all the attributes and methods of the `ElementPlugin` abstract class
 
 ```ts
-import { InlinePlugin } from '@aomao/engine';
+import { InlinePlugin } from '@4399ywkf/engine';
 
 export default class extends InlinePlugin {
 	static get pluginName() {
@@ -29,7 +29,7 @@ After executing `editor.command.execute("inline-plugin")`, the text at the curso
 Inherit the `InlinePlugin` abstract class
 
 ```ts
-import {InlinePlugin} from'@aomao/engine'
+import {InlinePlugin} from'@4399ywkf/engine'
 
 export default class extends InlinePlugin {
 ...

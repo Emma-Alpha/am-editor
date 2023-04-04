@@ -7,7 +7,7 @@
 此类插件我们需要继承 `InlinePlugin` 抽象类，`InlinePlugin` 抽象类在继承 `ElementPlugin` 抽象类的基础上扩展了一些属性和方法。所以继承 `InlinePlugin` 的插件也同样拥有`ElementPlugin`抽象类的所有属性和方法
 
 ```ts
-import { InlinePlugin } from '@aomao/engine';
+import { InlinePlugin } from '@4399ywkf/engine';
 
 export default class extends InlinePlugin {
 	static get pluginName() {
@@ -29,7 +29,7 @@ export default class extends InlinePlugin {
 继承 `InlinePlugin` 抽象类
 
 ```ts
-import { InlinePlugin } from '@aomao/engine'
+import { InlinePlugin } from '@4399ywkf/engine'
 
 export default class extends InlinePlugin {
 	...

@@ -11,7 +11,7 @@ For this type of plugin, we need to inherit the `BlockPlugin` abstract class. Th
 Inherit the `BlockPlugin` abstract class
 
 ```ts
-import {BlockPlugin} from'@aomao/engine'
+import {BlockPlugin} from'@4399ywkf/engine'
 
 export default class extends BlockPlugin {
 ...

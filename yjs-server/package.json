@@ -5,7 +5,7 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "sideEffects": false,
-  "private": true,
+  "private": false,
   "files": [
     "dist/**"
   ],
@@ -36,7 +36,7 @@
     "yjs": ">=13.5"
   },
   "dependencies": {
-    "@aomao/plugin-yjs-websocket": "latest"
+    "@4399ywkf/plugin-yjs-websocket": "latest"
   },
   "peerDependencies": {
     "yjs": ">=13.5"

@@ -9,7 +9,7 @@ import {
 	PluginOptions,
 	decodeCardValue,
 	encodeCardValue,
-} from '@aomao/engine';
+} from '@4399ywkf/engine';
 import locales from './local';
 import { TagValue } from './component/type';
 import TagComponent from './component/index';
