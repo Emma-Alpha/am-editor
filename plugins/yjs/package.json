@@ -1,6 +1,6 @@
 {
     "name": "@4399ywkf/plugin-yjs",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "main": "dist/index.js",
     "module": "dist/index.esm.js",
     "typings": "dist/index.d.ts",
@@ -27,11 +27,11 @@
         "yjs": ">=13.5"
     },
     "dependencies": {
-        "@aomao/plugin-yjs-protocols": "^1.0.2",
+        "@4399ywkf/plugin-yjs-protocols": "^1.0.5",
         "@babel/runtime": "^7.13.10"
     },
     "peerDependencies": {
-        "@aomao/engine": ">=2.9",
+        "@4399ywkf/engine": ">=2.9",
         "yjs": ">=13.5"
     },
     "gitHead": "0ef4fe2f17af30a02d102efe5e6d240ce2ce7df7"

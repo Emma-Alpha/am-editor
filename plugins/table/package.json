@@ -1,6 +1,6 @@
 {
   "name": "@4399ywkf/plugin-table",
-  "version": "2.10.2",
+  "version": "2.10.3",
   "description": "table plugin",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
@@ -35,7 +35,7 @@
     "@types/markdown-it": "^12.2.3"
   },
   "peerDependencies": {
-    "@aomao/engine": ">=2.9"
+    "@4399ywkf/engine": ">=2.9"
   },
   "gitHead": "0ef4fe2f17af30a02d102efe5e6d240ce2ce7df7"
 }

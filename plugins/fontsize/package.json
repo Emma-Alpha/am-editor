@@ -1,6 +1,6 @@
 {
   "name": "@4399ywkf/plugin-fontsize",
-  "version": "2.10.2",
+  "version": "2.10.3",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
@@ -27,7 +27,7 @@
     "@babel/runtime": "^7.13.10"
   },
   "peerDependencies": {
-    "@aomao/engine": ">=2.9"
+    "@4399ywkf/engine": ">=2.9"
   },
   "gitHead": "0ef4fe2f17af30a02d102efe5e6d240ce2ce7df7"
 }

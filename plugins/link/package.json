@@ -1,6 +1,6 @@
 {
   "name": "@4399ywkf/plugin-link",
-  "version": "2.10.3",
+  "version": "2.10.4",
   "description": "> TODO: description",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -38,7 +38,7 @@
     "react-dom": "^17.0.0"
   },
   "peerDependencies": {
-    "@aomao/engine": ">=2.9",
+    "@4399ywkf/engine": ">=2.9",
     "antd": "^4.14.1",
     "react": ">=17.0.0",
     "react-dom": ">=17.0.0"

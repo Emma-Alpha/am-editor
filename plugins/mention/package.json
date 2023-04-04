@@ -1,6 +1,6 @@
 {
     "name": "@4399ywkf/plugin-mention",
-    "version": "2.10.4",
+    "version": "2.10.5",
     "description": "提到 @",
     "main": "dist/index.js",
     "module": "dist/index.esm.js",
@@ -29,7 +29,7 @@
         "keymaster": "^1.6.2"
     },
     "peerDependencies": {
-        "@aomao/engine": ">=2.9"
+        "@4399ywkf/engine": ">=2.9"
     },
     "gitHead": "0ef4fe2f17af30a02d102efe5e6d240ce2ce7df7"
 }

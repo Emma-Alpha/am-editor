@@ -1,6 +1,6 @@
 {
   "name": "@4399ywkf/plugin-link-vue",
-  "version": "2.10.3",
+  "version": "2.10.4",
   "description": "> TODO: description",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -37,7 +37,7 @@
     "vue": "^3.2.9"
   },
   "peerDependencies": {
-    "@aomao/engine": ">=2.9",
+    "@4399ywkf/engine": ">=2.9",
     "ant-design-vue": ">=2.2.6",
     "vue": ">=3.2.9"
   },

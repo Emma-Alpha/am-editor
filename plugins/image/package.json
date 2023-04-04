@@ -1,6 +1,6 @@
 {
 	"name": "@4399ywkf/plugin-image",
-	"version": "2.10.2",
+	"version": "2.10.3",
 	"description": "图片",
 	"main": "dist/index.js",
 	"module": "dist/index.esm.js",
@@ -34,7 +34,7 @@
 		"@types/photoswipe": "^4.1.1"
 	},
 	"peerDependencies": {
-		"@aomao/engine": ">=2.9"
+		"@4399ywkf/engine": ">=2.9"
 	},
 	"gitHead": "0ef4fe2f17af30a02d102efe5e6d240ce2ce7df7"
 }

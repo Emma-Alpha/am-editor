@@ -1,6 +1,6 @@
 {
   "name": "@4399ywkf/plugin-math",
-  "version": "2.10.2",
+  "version": "2.10.3",
   "description": "Math（数学公式）",
   "keywords": [
     "Math"
@@ -35,7 +35,7 @@
     "@types/lodash": "^4.14.178"
   },
   "peerDependencies": {
-    "@aomao/engine": ">=2.9"
+    "@4399ywkf/engine": ">=2.9"
   },
   "gitHead": "0ef4fe2f17af30a02d102efe5e6d240ce2ce7df7"
 }
